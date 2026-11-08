@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify-conversion.mjs",
     "test:e2e": "playwright test",
+    "test:sliders": "node scripts/compare-sliders.mjs",
     "convert:template": "node scripts/convert-template.mjs"
   },
   "dependencies": {

@@ -90,7 +90,9 @@ function jsx(node, file, depth = 0) {
       continue;
     }
     if (booleans.has(key)) { props.push(attrNames[key] || key); continue; }
-    props.push(`${attrNames[key] || key}=${quote(value)}`);
+    // JSX quoted attributes do not decode JavaScript escapes such as \n.
+    // Preserve multiline Swiper/animation options as actual string expressions.
+    props.push(`${attrNames[key] || key}=${/[\r\n"\\]/.test(value) ? `{${quote(value)}}` : quote(value)}`);
   }
   const opening = `<${tag}${props.length ? ' ' + props.join(' ') : ''}`;
   if (voids.has(node.name)) return opening + ' />';
@@ -155,7 +157,13 @@ fs.copyFileSync(path.join(source, 'favicon.ico'), path.join(root, 'src/app/favic
 // These helpers now run after React has hydrated and on subsequent client routes.
 for (const name of ['swiper-helper.js', 'anime-helper.js']) {
   const target = path.join(root, 'public/assets/js/helpers', name);
-  const code = fs.readFileSync(target, 'utf8').replaceAll('document.addEventListener("DOMContentLoaded",', 'window.news5Ready(');
+  let code = fs.readFileSync(target, 'utf8').replaceAll('document.addEventListener("DOMContentLoaded",', 'window.news5Ready(');
+  if (name === 'swiper-helper.js') {
+    // React owns slider initialization/cleanup; retain the HTML template's parser.
+    code = code.replace('window.news5Ready((()=>{dataAttrHelpers.watchDataAttr("data-uc-swiper",l)})),', '');
+    code = code.replace('const r=()=>{const e=new t(n,a);', 'const r=()=>{if(!n.isConnected||n.swiper&&!n.swiper.destroyed)return;const e=new t(n,a);');
+    code = code.replace('window.addEventListener("load",(()=>e.update()),{once:!0})', 'window.news5Ready((()=>e.update()))');
+  }
   fs.writeFileSync(target, code);
 }
 for (const name of ['page.module.css']) {

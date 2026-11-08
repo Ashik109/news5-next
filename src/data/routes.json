@@ -267,7 +267,7 @@
     "route": "/demo-eleven",
     "source": "demo-eleven/index.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "210ef87e7e3d"
+    "hash": "e0eb3708e47a"
   },
   {
     "route": "/demo-eleven/page-faq",
@@ -453,7 +453,7 @@
     "route": "/demo-five",
     "source": "demo-five/index.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "bfbebd94456c"
+    "hash": "189ddcb84b00"
   },
   {
     "route": "/demo-five/page-faq",
@@ -1941,7 +1941,7 @@
     "route": "/main",
     "source": "main/index.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "50705487d47a"
+    "hash": "c3debb540c14"
   },
   {
     "route": "/main/page-faq",

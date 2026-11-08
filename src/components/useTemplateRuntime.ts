@@ -2,9 +2,9 @@
 
 import { useEffect, type ReactNode, type RefObject } from "react";
 import { usePathname } from "next/navigation";
+import { initializeTemplateSliders } from "./templateSliders";
 
-type Slider = { destroy: (deleteInstance?: boolean, cleanStyles?: boolean) => void };
-type AnimatedElement = HTMLElement & { swiper?: Slider; animeInstance?: { pause: () => void } };
+type AnimatedElement = HTMLElement & { animeInstance?: { pause: () => void } };
 
 declare global {
   interface Window {
@@ -87,6 +87,7 @@ export default function useTemplateRuntime(page: ReactNode, rootRef: RefObject<H
     else if (params.has("dark")) window.setDarkMode(params.get("dark") === "1");
     const root = rootRef.current;
     const timers: ReturnType<typeof setTimeout>[] = [];
+    let disposeSliders: (() => void) | undefined;
     const elements = Array.from(root?.querySelectorAll<AnimatedElement>("*") || []);
     const syncDark = () => root?.querySelectorAll<HTMLInputElement>("[data-darkmode-toggle] input, [data-darkmode-switch] input").forEach(input => { input.checked = window.isDarkMode(); });
     syncDark();
@@ -95,6 +96,7 @@ export default function useTemplateRuntime(page: ReactNode, rootRef: RefObject<H
     loadLibraries().then(() => {
       if (cancelled) return;
       window.UniCore?.update(root || undefined);
+      if (root) disposeSliders = initializeTemplateSliders(root);
       const gdpr = root?.querySelector("#uc-gdpr-notification");
       if (gdpr && !storageGet("gdprAccepted")) timers.push(setTimeout(() => gdpr.classList.add("show"), 5000));
       const modal = root?.querySelector("#uc-newsletter-modal");
@@ -149,6 +151,7 @@ export default function useTemplateRuntime(page: ReactNode, rootRef: RefObject<H
 
     return () => {
       cancelled = true;
+      disposeSliders?.();
       timers.forEach(clearTimeout);
       observer.disconnect();
       window.removeEventListener("darkmodechange", syncDark);
@@ -158,7 +161,6 @@ export default function useTemplateRuntime(page: ReactNode, rootRef: RefObject<H
       for (const element of elements) {
         // UniCore observes DOM removal itself. Preserve widgets React reuses.
         if (!element.isConnected) {
-          element.swiper?.destroy(true, true);
           element.animeInstance?.pause();
         }
       }
