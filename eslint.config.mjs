@@ -12,7 +12,15 @@ const eslintConfig = defineConfig([
     "out/**",
     "build/**",
     "next-env.d.ts",
+    "public/assets/**",
   ]),
+  {
+    // Keep the template's responsive images and authored stylesheet order.
+    rules: {
+      "@next/next/no-img-element": "off",
+      "@next/next/no-css-tags": "off",
+    },
+  },
 ]);
 
 export default eslintConfig;

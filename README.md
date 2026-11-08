@@ -1,36 +1,52 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# News5 Next.js
 
-## Getting Started
+Complete React/Next.js conversion of the News5 template: 342 App Router pages, all 11 demos, the demo preview landing page, blog archives/details, author/category pages, shop/cart/checkout layouts, account screens, FAQ, policy pages, coming soon and 404 designs. Uses TypeScript and the original Bootstrap/UniCore CSS and SCSS; no Tailwind.
 
-First, run the development server:
+## Run locally
 
 ```bash
+npm install
 npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+Open http://localhost:3000 for the original demo preview. The main news layout is `/main`. Other homepages are `/demo-two`, `/demo-three`, `/demo-four`, `/demo-five`, `/demo-six`, `/demo-seven`, `/demo-eight`, `/demo-nine`, `/demo-ten` and `/demo-eleven`.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+Inner pages retain their original names without the extension, e.g. `/main/blog-details`, `/demo-three/blog`, `/demo-nine/shop-product-detail` and `/main/sign-in`. `src/data/routes.json` lists every converted route.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+On Windows PowerShell with restricted script execution, use `npm.cmd` instead of `npm`.
 
-## Learn More
+## Project structure
 
-To learn more about Next.js, take a look at the following resources:
+- `src/app/`: individual `.tsx` routes and page metadata.
+- `src/components/template/`: shared headers, footers, overlays and page sections, rendered as real JSX.
+- `src/components/DemoContext.tsx`: demo-aware Next.js links that keep visitors in their selected theme.
+- `src/components/TemplateShell.tsx`: original page classes and theme stylesheet selection.
+- `src/components/useTemplateRuntime.ts`: browser initialization after page hydration, dark mode persistence, menus, sliders, cookie notices and lazy videos, including client navigation lifecycle.
+- `public/assets/`: original images, fonts, stylesheets and vendor scripts.
+- `src/styles/scss/`: original editable SCSS sources; compiled CSS is already included in assets.
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+The app has no HTML files or runtime HTML injection. It does not require the original template directory to run or build. Google Fonts are loaded by the original stylesheets and need an internet connection.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+Cache Components is disabled so inactive demo pages unmount: their global theme styles and vendor widget IDs must not coexist in hidden cached page trees. React Compiler and normal Next.js routing/static prerendering remain enabled.
 
-## Deploy on Vercel
+This is a frontend template: authentication, search results, payments, orders, newsletter delivery and contact submission need real backend integrations. Their original UI is included; no fake account/payment behavior is added.
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Validation and production
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+```bash
+npm run verify
+npm run lint
+npm run build
+npm run start
+```
+
+Browser checks (after a successful build):
+
+```bash
+npx playwright install chromium
+npm run test:e2e
+```
+
+These verify all routes, demo layouts on desktop/mobile, missing assets, hydration/browser errors, menu/search overlays, dark mode and navigation. Screenshots and traces are written to the ignored `test-results/` directory.
+
+The one-time migration script is retained for reference: `npm run convert:template -- ../news5-html/template/src`. It regenerates converted routes and shared components, so preserve manual edits before rerunning it. Known template typos in author links, ad/account images and the main theme stylesheet path are corrected during migration.
