@@ -1,0 +1,162 @@
+{
+  "sliderInstances": 100,
+  "comparisons": [
+    {
+      "route": "main",
+      "width": 1440,
+      "sliders": 6,
+      "differences": 0
+    },
+    {
+      "route": "demo-two",
+      "width": 1440,
+      "sliders": 1,
+      "differences": 0
+    },
+    {
+      "route": "demo-three",
+      "width": 1440,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-four",
+      "width": 1440,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-five",
+      "width": 1440,
+      "sliders": 6,
+      "differences": 0
+    },
+    {
+      "route": "demo-six",
+      "width": 1440,
+      "sliders": 4,
+      "differences": 0
+    },
+    {
+      "route": "demo-seven",
+      "width": 1440,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-eight",
+      "width": 1440,
+      "sliders": 7,
+      "differences": 0
+    },
+    {
+      "route": "demo-nine",
+      "width": 1440,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-ten",
+      "width": 1440,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-eleven",
+      "width": 1440,
+      "sliders": 5,
+      "differences": 0
+    },
+    {
+      "route": "main/shop-product-detail",
+      "width": 1440,
+      "sliders": 4,
+      "differences": 0
+    },
+    {
+      "route": "main/shop-product-detail-2",
+      "width": 1440,
+      "sliders": 2,
+      "differences": 0
+    },
+    {
+      "route": "main",
+      "width": 390,
+      "sliders": 6,
+      "differences": 0
+    },
+    {
+      "route": "demo-two",
+      "width": 390,
+      "sliders": 1,
+      "differences": 0
+    },
+    {
+      "route": "demo-three",
+      "width": 390,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-four",
+      "width": 390,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-five",
+      "width": 390,
+      "sliders": 6,
+      "differences": 0
+    },
+    {
+      "route": "demo-six",
+      "width": 390,
+      "sliders": 4,
+      "differences": 0
+    },
+    {
+      "route": "demo-seven",
+      "width": 390,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-eight",
+      "width": 390,
+      "sliders": 7,
+      "differences": 0
+    },
+    {
+      "route": "demo-nine",
+      "width": 390,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-ten",
+      "width": 390,
+      "sliders": 3,
+      "differences": 0
+    },
+    {
+      "route": "demo-eleven",
+      "width": 390,
+      "sliders": 5,
+      "differences": 0
+    },
+    {
+      "route": "main/shop-product-detail",
+      "width": 390,
+      "sliders": 4,
+      "differences": 0
+    },
+    {
+      "route": "main/shop-product-detail-2",
+      "width": 390,
+      "sliders": 2,
+      "differences": 0
+    }
+  ],
+  "failures": []
+}

@@ -57,6 +57,8 @@ npm run test:e2e
 
 These verify all routes, demo layouts on desktop/mobile, missing assets, hydration/browser errors, menu/search overlays, dark mode and navigation. Screenshots and traces are written to the ignored `test-results/` directory.
 
+For a complete rendered URL/link/asset audit, start production on port 3108 (`npm run start -- -p 3108`) and run `npm run audit:site`. Override `NEWS5_NEXT_URL` for another server. This crawls all valid static and slug URLs, validates selected detail titles, and checks local image/font/style references. See [the QA report](reports/QA-REPORT.md) for results and backend integration limits.
+
 To compare slider layout/settings directly against the original HTML project, start Next.js on port 3000 and run `npm run test:sliders`. This checks all demo homepages and product galleries at 1440px and 390px. Set `NEWS5_NEXT_URL` for another preview URL and `NEWS5_HTML_REFERENCE` for a different original `dist` directory. Optional route arguments limit the comparison, e.g. `npm run test:sliders -- main demo-five`.
 
 The one-time migration script is retained for reference: `npm run convert:template -- ../news5-html/template/src`. It regenerates converted routes and shared components, so preserve manual edits before rerunning it. Known template typos in author links, ad/account images and the main theme stylesheet path are corrected during migration.
