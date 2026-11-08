@@ -1,4 +1,4 @@
-# News5 Next.js
+# news5-nextjs
 
 Complete React/Next.js conversion of all 342 News5 template screens, plus data-driven slug routes for blog and product details across all 11 demos. Includes the demo preview landing page, archives, author/category pages, shop/cart/checkout layouts, account screens, FAQ, policy pages, coming soon and 404 designs. Uses TypeScript and the original Bootstrap/UniCore CSS and SCSS; no Tailwind.
 
