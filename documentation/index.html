@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="News5 Next.js project documentation: installation, demos, slug routes, content, styling, sliders, testing and deployment.">
+  <title>News5 — Project Documentation</title>
+  <style>
+    :root{--paper:#f5f4f0;--card:#fff;--ink:#202124;--muted:#62656c;--line:#deded8;--accent:#d64431;--nav:#171a1d;--mono:ui-monospace,SFMono-Regular,Consolas,monospace;--side:258px}
+    *{box-sizing:border-box}html{scroll-behavior:smooth;scroll-padding-top:90px}body{margin:0;background:var(--paper);color:var(--ink);font:15px/1.75 system-ui,-apple-system,BlinkMacSystemFont,"Segoe UI",sans-serif}a{color:var(--accent);text-decoration:none}a:hover{text-decoration:underline}button,input{font:inherit}button{cursor:pointer}button:focus-visible,a:focus-visible,input:focus-visible{outline:3px solid #ecaa6b;outline-offset:4px}[hidden]{display:none!important}.skip{position:fixed;left:12px;top:-80px;z-index:99;background:white;padding:12px}.skip:focus{top:12px}
+    .sidebar{position:fixed;inset:0 auto 0 0;width:var(--side);background:var(--nav);color:#fff;z-index:30;display:flex;flex-direction:column;padding:30px 24px 20px}.brand{font-size:32px;line-height:1;letter-spacing:-2px;font-weight:900;color:#fff}.brand b{color:#ef755c}.brand small{display:block;letter-spacing:2px;text-transform:uppercase;font-size:9px;margin-top:13px;font-weight:600;color:#9da4aa}.nav-label{color:#929ba2;font-size:10px;letter-spacing:1.8px;text-transform:uppercase;margin:34px 10px 10px}.sidebar nav{overflow-y:auto;flex:1}.sidebar nav a{display:flex;align-items:center;gap:12px;padding:9px 11px;margin:3px 0;border-radius:5px;color:#c6cbd0;font-size:13px;line-height:1.5;border-left:2px solid transparent}.sidebar nav a span{font:10px var(--mono);color:#7d8992}.sidebar nav a:hover,.sidebar nav a.active{background:#292d31;color:white;text-decoration:none}.sidebar nav a.active{border-left-color:#ef755c}.sidebar nav a.active span{color:#ef755c}.sidebar-foot{font-size:11px;color:#949da5;padding-top:18px;border-top:1px solid #34393d;margin-top:18px}.sidebar-foot strong{color:#e0e4e6;font-weight:500}
+    .topbar{position:sticky;top:0;z-index:20;margin-left:var(--side);height:66px;background:rgba(245,244,240,.96);border-bottom:1px solid var(--line);display:flex;align-items:center;justify-content:space-between;gap:20px;padding:0 45px;backdrop-filter:blur(12px)}.crumb{font-size:12px;color:var(--muted)}.crumb b{font-weight:500;color:var(--ink)}.tools{display:flex;align-items:center;gap:12px}.search{position:relative}.search input{width:235px;padding:8px 45px 8px 13px;border:1px solid var(--line);border-radius:5px;background:#fff;color:var(--ink);font-size:12px}.search kbd{position:absolute;right:9px;top:10px;font:9px var(--mono);border:1px solid var(--line);border-radius:3px;padding:1px 4px;color:#888}.plain-btn{border:1px solid var(--line);border-radius:5px;background:transparent;padding:7px 12px;font-size:12px;color:var(--ink)}.menu-btn{display:none}.backdrop{display:none}
+    main{margin-left:var(--side);max-width:1400px;padding:48px 56px 0}.hero{padding-bottom:40px;border-bottom:1px solid var(--line)}.eyebrow{font:11px var(--mono);color:var(--accent);letter-spacing:1.5px;text-transform:uppercase;display:flex;align-items:center;gap:10px}.eyebrow:before{content:"";width:25px;height:2px;background:var(--accent)}h1{font-size:clamp(38px,4.5vw,68px);line-height:1.08;letter-spacing:-3px;margin:21px 0;font-weight:750;max-width:800px}h1 em{font-family:Georgia,serif;font-weight:400}h2{font-size:29px;letter-spacing:-1px;line-height:1.25;margin:0 0 13px}h3{font-size:17px;line-height:1.4;margin:26px 0 10px}p{margin:10px 0 17px}.intro{font-size:17px;color:var(--muted);max-width:740px;line-height:1.7}.badges{display:flex;flex-wrap:wrap;gap:7px;margin:23px 0}.badge{font:11px var(--mono);border:1px solid var(--line);border-radius:4px;padding:4px 9px;background:#fff}.badge.accent{background:#f7e6e0;border-color:#efd0c5;color:#a63826}.quick{display:grid;grid-template-columns:1.2fr 1fr;gap:25px;align-items:start;margin-top:30px}.quick-note{padding:18px 0;color:var(--muted);font-size:13px}.quick-note strong{color:var(--ink)}.stats{display:grid;grid-template-columns:repeat(4,1fr);margin-top:32px;border:1px solid var(--line);background:#fff;border-radius:6px}.stat{padding:18px 22px;border-right:1px solid var(--line)}.stat:last-child{border:0}.stat strong{display:block;font-size:26px;letter-spacing:-1px;line-height:1.3}.stat span{font-size:10px;color:var(--muted);text-transform:uppercase;letter-spacing:1px}
+    .doc-section{padding:44px 0;border-bottom:1px solid var(--line);scroll-margin-top:90px}.section-top{display:flex;align-items:baseline;gap:15px;margin-bottom:10px}.section-num{font:12px var(--mono);color:var(--accent);flex-shrink:0}.section-lead{color:var(--muted);max-width:790px;margin:8px 0 24px}.cols{display:grid;grid-template-columns:1fr 1fr;gap:20px}.card{background:var(--card);border:1px solid var(--line);border-radius:6px;padding:22px}.card h3{margin-top:0}.card p:last-child{margin-bottom:0}.callout{padding:16px 19px;border-left:3px solid var(--accent);background:#f0e7df;border-radius:0 5px 5px 0;font-size:13px;margin:20px 0}.callout strong{display:block;margin-bottom:3px}.callout.info{background:#e7eeeb;border-color:#46775d}.steps{list-style:none;padding:0;counter-reset:steps}.steps>li{position:relative;padding:0 0 19px 38px;counter-increment:steps}.steps>li:before{content:counter(steps);position:absolute;left:0;top:2px;border:1px solid var(--line);background:#fff;width:24px;height:24px;text-align:center;line-height:24px;font:12px/24px var(--mono);border-radius:50%}.steps h3{margin:0 0 7px}.table-wrap{overflow-x:auto;border:1px solid var(--line);border-radius:6px;background:#fff;margin:18px 0}table{width:100%;border-collapse:collapse;text-align:left;font-size:13px}th{font-size:10px;text-transform:uppercase;letter-spacing:1px;background:#efefeb;color:var(--muted);font-weight:600}td,th{padding:12px 16px;border-bottom:1px solid var(--line);vertical-align:top}tr:last-child td{border-bottom:0}td:first-child{color:var(--ink)}td code{white-space:nowrap}code{font:12px/1.7 var(--mono);background:#e9e9e3;padding:2px 5px;border-radius:3px;overflow-wrap:anywhere}pre{position:relative;margin:16px 0;background:#20262a;color:#e2e7e9;border-radius:6px;padding:24px 20px 21px;overflow:auto;font:12px/1.9 var(--mono);tab-size:2}pre code{font:inherit;background:none;padding:0;color:inherit;white-space:pre;overflow-wrap:normal}.code-label{font:9px var(--mono);text-transform:uppercase;letter-spacing:1.4px;color:#a8b8c1;display:block;margin-bottom:9px}.copy{position:absolute;right:10px;top:9px;border:1px solid #556168;background:#303b42;color:#dce3e7;font:10px var(--mono);padding:4px 8px;border-radius:3px}.quick pre{margin:0}ul{padding-left:21px}li{margin:5px 0}.tree{font:12px/1.9 var(--mono);white-space:pre;margin:0}.small{font-size:12px;color:var(--muted)}.demo-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:10px;margin-top:20px}.demo{padding:15px 16px;background:#fff;border:1px solid var(--line);border-radius:5px}.demo b{display:block;font-size:12px;margin-bottom:3px}.demo code{font-size:11px;background:none;padding:0;color:var(--muted)}details{background:#fff;border:1px solid var(--line);border-radius:5px;margin:10px 0;padding:15px 18px}summary{cursor:pointer;font-size:14px;font-weight:600}details p{font-size:13px;margin-bottom:0}.check{color:#327254;font-weight:600}.end{padding:35px 0 45px;display:flex;justify-content:space-between;gap:20px;font-size:11px;color:var(--muted)}#no-results{padding:50px 0;color:var(--muted)}
+    @media(min-width:1650px){main{padding-right:90px;padding-left:75px}}@media(max-width:1100px){:root{--side:224px}main{padding:35px 30px 0}.topbar{padding:0 30px}.quick{grid-template-columns:1fr}.quick-note{padding:0}.demo-grid{grid-template-columns:1fr 1fr}.stats .stat{padding:15px}.search input{width:190px}}
+    @media(max-width:760px){:root{--side:258px}.sidebar{transform:translateX(-100%);transition:transform .2s}.sidebar.open{transform:none}.backdrop.open{display:block;position:fixed;inset:0;background:#0007;z-index:25;border:0}.topbar{margin:0;padding:0 16px;height:61px;gap:10px}.menu-btn{display:inline-block}.crumb{display:none}.tools{gap:8px;width:100%;justify-content:flex-end}.search{flex:1}.search input{width:100%;max-width:300px}.search kbd{display:none}.print-btn{padding:7px 9px}main{margin:0;padding:28px 20px 0}h1{letter-spacing:-2px;font-size:43px}.intro{font-size:15px}.hero{padding-bottom:27px}.stats{grid-template-columns:1fr 1fr}.stat:nth-child(2){border-right:0}.stat:nth-child(-n+2){border-bottom:1px solid var(--line)}.cols{grid-template-columns:1fr}.doc-section{padding:32px 0}.section-top{gap:10px}h2{font-size:25px}.card{padding:18px}.demo-grid{grid-template-columns:1fr 1fr}.demo{padding:12px}.end{flex-direction:column;gap:5px}td,th{padding:11px 12px}pre{font-size:11px;padding-left:15px;padding-right:15px}.section-num{font-size:10px}}
+    @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}.sidebar{transition:none}}@media print{body{background:#fff;font-size:10pt}.sidebar,.topbar,.copy,.backdrop,.skip{display:none!important}main{margin:0;max-width:none;padding:0}.hero{padding:0 0 20px}h1{font-size:36pt}.doc-section{padding:23px 0;break-inside:auto}.card,.callout,pre,tr{break-inside:avoid}pre{white-space:pre-wrap;background:#f3f3f3;color:#111;border:1px solid #ccc}pre code{white-space:pre-wrap}.stats,.demo-grid{break-inside:avoid}.end{padding:20px 0}.doc-section[hidden]{display:block!important}a{color:inherit}.code-label{color:#555}}
+  </style>
+</head>
+<body>
+  <a href="#content" class="skip">Skip to documentation</a>
+  <button class="backdrop" id="backdrop" aria-label="Close navigation" hidden></button>
+  <aside class="sidebar" id="sidebar" aria-label="Documentation navigation">
+    <a class="brand" href="#overview" aria-label="News5 documentation home">NEWS<b>5</b><small>Next.js / Documentation</small></a>
+    <div class="nav-label">The project handbook</div>
+    <nav id="toc">
+      <a href="#overview" class="active"><span>00</span> Overview</a>
+      <a href="#installation"><span>01</span> Installation</a>
+      <a href="#structure"><span>02</span> Project structure</a>
+      <a href="#demos"><span>03</span> Demos &amp; pages</a>
+      <a href="#routing"><span>04</span> Slug routing</a>
+      <a href="#content-data"><span>05</span> Managing content</a>
+      <a href="#customization"><span>06</span> Styling &amp; assets</a>
+      <a href="#sliders"><span>07</span> Sliders &amp; interactions</a>
+      <a href="#metadata"><span>08</span> Metadata &amp; SEO</a>
+      <a href="#integrations"><span>09</span> Backend integrations</a>
+      <a href="#testing"><span>10</span> Testing &amp; audits</a>
+      <a href="#deployment"><span>11</span> Production deployment</a>
+      <a href="#troubleshooting"><span>12</span> Troubleshooting</a>
+    </nav>
+    <div class="sidebar-foot"><strong>Project version 0.1.0</strong><br>Standalone guide · Updated 08 Nov 2026<br>Works without a documentation server.</div>
+  </aside>
+
+  <header class="topbar">
+    <button class="plain-btn menu-btn" id="menu-toggle" aria-label="Open documentation navigation" aria-expanded="false" aria-controls="sidebar">Menu</button>
+    <div class="crumb">News5 <span aria-hidden="true"> / </span> <b>Developer guide</b></div>
+    <div class="tools">
+      <label class="search"><span class="sr-only" hidden>Search documentation</span><input type="search" id="search" aria-label="Search documentation" placeholder="Search documentation…" autocomplete="off"><kbd>Ctrl K</kbd></label>
+      <button class="plain-btn print-btn" id="print">Print / PDF</button>
+    </div>
+  </header>
+
+  <main id="content">
+    <section class="hero doc-section" id="overview" data-label="Overview">
+      <div class="eyebrow">A practical guide to your project</div>
+      <h1>Publish your ideas.<br><em>Make it your own.</em></h1>
+      <p class="intro">Everything you need to install, customize and maintain the News5 Next.js project—from choosing a demo to editing slug-based content and running the production checks.</p>
+      <div class="badges"><span class="badge accent">Next.js 16.4.5</span><span class="badge">React 19.3.0</span><span class="badge">TypeScript</span><span class="badge">App Router</span><span class="badge">Bootstrap / UniCore CSS</span><span class="badge">No Tailwind</span></div>
+      <div class="quick">
+        <pre><span class="code-label">Quick start · project root</span><code>npm ci
+npm run dev</code></pre>
+        <div class="quick-note"><strong>Start at <code>http://localhost:3000</code></strong><br>The root URL is the demo preview page. Open <code>/main</code> for the main news homepage, or choose another demo below. This guide is a separate HTML document; application pages are React/TSX.</div>
+      </div>
+      <div class="stats"><div class="stat"><strong>11</strong><span>Demo layouts</span></div><div class="stat"><strong>342</strong><span>Converted screens</span></div><div class="stat"><strong>31</strong><span>Catalog posts</span></div><div class="stat"><strong>16</strong><span>Catalog products</span></div></div>
+    </section>
+    <p id="no-results" role="status" hidden>No matching documentation sections. Try “slug”, “slider”, “CSS” or “deployment”.</p>
+
+    <section class="doc-section" id="installation" data-label="Installation">
+      <div class="section-top"><span class="section-num">01 /</span><h2>Installation</h2></div>
+      <p class="section-lead">Run commands from the folder that contains <code>package.json</code>, not from the <code>documentation</code> folder.</p>
+      <div class="cols"><div class="card"><h3>Requirements</h3><ul><li>Node.js 20.9 or higher for this Next.js version.</li><li>Node.js 22.18 was used to verify this project.</li><li>npm and a current browser.</li><li>Internet access for dependency installation and the theme’s Google Fonts.</li></ul></div><div class="card"><h3>Included in the project</h3><p>React pages, original images and fonts, compiled theme CSS, vendor scripts, editable content data, original SCSS reference sources and browser checks.</p><p class="small">The original HTML template directory is not required to run or build the application.</p></div></div>
+      <ol class="steps"><li><h3>Install the locked dependencies</h3><pre><code>npm ci</code></pre><p class="small">Use <code>npm install</code> when intentionally changing dependencies and updating the lockfile.</p></li><li><h3>Start the development server</h3><pre><code>npm run dev</code></pre></li><li><h3>Open the application</h3><p>Visit <code>http://localhost:3000/main</code>. Your terminal displays the actual port if 3000 is already occupied.</p></li></ol>
+      <div class="callout"><strong>Windows PowerShell</strong>If PowerShell blocks <code>npm.ps1</code>, use <code>npm.cmd ci</code>, <code>npm.cmd run dev</code> and <code>npx.cmd</code>. You do not need to change the system execution policy.</div>
+    </section>
+
+    <section class="doc-section" id="structure" data-label="Project structure">
+      <div class="section-top"><span class="section-num">02 /</span><h2>Know where things live</h2></div>
+      <p class="section-lead">Pages select their layout, shared components provide the markup, and the detail catalog supplies post/product records.</p>
+      <div class="cols"><pre class="tree"><code>news5-next/
+├── documentation/
+│   └── index.html
+├── public/assets/
+│   ├── css/theme/
+│   ├── fonts/
+│   ├── images/
+│   └── js/
+├── src/
+│   ├── app/
+│   ├── components/
+│   │   ├── template/
+│   │   └── details/
+│   ├── data/
+│   └── styles/scss/
+├── scripts/
+├── tests/
+├── reports/
+└── package.json</code></pre><div class="card"><h3>Start with these files</h3><p><code>src/app/layout.tsx</code><br>Root document, shared styles and default metadata.</p><p><code>src/components/TemplateShell.tsx</code><br>Theme stylesheet and original page classes.</p><p><code>src/components/DemoContext.tsx</code><br>Demo-aware links and page runtime ownership.</p><p><code>src/data/details.ts</code><br>Typed catalog lookups and slug validation.</p></div></div>
+      <div class="table-wrap"><table><thead><tr><th>Location</th><th>Purpose</th></tr></thead><tbody><tr><td><code>src/app/</code></td><td>App Router pages, slug segments, redirects and metadata.</td></tr><tr><td><code>src/components/template/</code></td><td>Shared headers, footers, overlays and page sections.</td></tr><tr><td><code>src/components/details/</code></td><td>Original detail layout variants, organized by demo.</td></tr><tr><td><code>src/data/routes.json</code></td><td>Original converted route manifest.</td></tr><tr><td><code>src/data/detail-routes.json</code></td><td>All 77 detail route patterns across the demos.</td></tr><tr><td><code>reports/</code></td><td>QA report and machine-readable audit summaries.</td></tr></tbody></table></div>
+    </section>
+
+    <section class="doc-section" id="demos" data-label="Demos and pages">
+      <div class="section-top"><span class="section-num">03 /</span><h2>Choose a demo</h2></div>
+      <p class="section-lead">Every demo has its own theme and page prefix. The preview landing page remains at <code>/</code>.</p>
+      <div class="demo-grid"><div class="demo"><b>Main news</b><code>/main</code></div><div class="demo"><b>Classic news</b><code>/demo-two</code></div><div class="demo"><b>Technology</b><code>/demo-three</code></div><div class="demo"><b>Classic blog</b><code>/demo-four</code></div><div class="demo"><b>Gaming</b><code>/demo-five</code></div><div class="demo"><b>Sports</b><code>/demo-six</code></div><div class="demo"><b>Newspaper</b><code>/demo-seven</code></div><div class="demo"><b>Magazine</b><code>/demo-eight</code></div><div class="demo"><b>Travel</b><code>/demo-nine</code></div><div class="demo"><b>Food</b><code>/demo-ten</code></div><div class="demo"><b>Additional news layout</b><code>/demo-eleven</code></div></div>
+      <h3>Page families</h3><p>Inside a demo, you will find blog archives and grids, author/category screens, detail layouts, shop/catalog screens, product details, cart and checkout layouts, account screens, FAQ, privacy/terms, coming soon and 404 designs.</p>
+      <pre><span class="code-label">Example URLs</span><code>/main/blog
+/main/blog-2cols
+/demo-three/blog-category
+/main/shop
+/main/shop-cart
+/main/shop-checkout
+/main/sign-in
+/main/page-faq</code></pre>
+      <div class="callout info"><strong>Make a demo the entry point</strong>Edit <code>src/app/page.tsx</code> if you want the root URL to redirect to a selected homepage. Preserve the existing preview page elsewhere first if you still need it.</div>
+      <pre><span class="code-label">src/app/page.tsx · optional root redirect</span><code>import { redirect } from "next/navigation";
+
+export default function Page() {
+  redirect("/main");
+}</code></pre>
+    </section>
+
+    <section class="doc-section" id="routing" data-label="Slug routing">
+      <div class="section-top"><span class="section-num">04 /</span><h2>Details with meaningful URLs</h2></div>
+      <p class="section-lead">A slug selects a record, not just a different URL for the same hardcoded page. Card links, detail headings, primary images, metadata and product price/gallery fields are connected.</p>
+      <div class="table-wrap"><table><thead><tr><th>Route pattern</th><th>Purpose</th></tr></thead><tbody><tr><td><code>/main/blog/[slug]</code></td><td>Canonical blog detail layout.</td></tr><tr><td><code>/main/blog-details/[slug]</code></td><td>Supported alias for the standard blog layout.</td></tr><tr><td><code>/main/blog-details-2/[slug]</code></td><td>Second article layout.</td></tr><tr><td><code>/main/blog-details-3/[slug]</code></td><td>Third article layout.</td></tr><tr><td><code>/main/shop/[slug]</code></td><td>Canonical product detail layout.</td></tr><tr><td><code>/main/shop-product-detail/[slug]</code></td><td>Supported alias for the standard product layout.</td></tr><tr><td><code>/main/shop-product-detail-2/[slug]</code></td><td>Second product layout.</td></tr></tbody></table></div>
+      <p>Replace <code>main</code> with another demo prefix to use the same pattern there. A record must include that demo in its <code>demos</code> array.</p>
+      <pre><span class="code-label">Working examples</span><code>/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks
+/demo-three/blog/ai-and-marketing-unlocking-customer-insights
+/main/shop/disney-toys
+/main/shop-product-detail-2/elegant-watch</code></pre>
+      <div class="cols"><div class="card"><h3>Old URLs</h3><p>Flat URLs such as <code>/main/blog-details</code> and <code>/main/shop-product-detail</code> redirect to the template’s default named record. Defaults are stored in <code>src/data/detail-defaults.json</code>.</p></div><div class="card"><h3>Static generation &amp; 404s</h3><p>Canonical records use <code>generateStaticParams</code>. Alternate variants prerender their default record and can render other valid catalog slugs on demand. Unknown slugs return 404.</p></div></div>
+      <h3>Demo-aware links</h3><p>Use <code>SiteLink</code> for navigation within the selected demo. Use <code>Link</code> from <code>next/link</code> with an absolute route when deliberately switching demos.</p>
+      <pre><code>import { SiteLink } from "@/components/DemoContext";
+
+&lt;SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights"&gt;
+  Read the article
+&lt;/SiteLink&gt;</code></pre>
+    </section>
+
+    <section class="doc-section" id="content-data" data-label="Managing content data">
+      <div class="section-top"><span class="section-num">05 /</span><h2>Edit posts &amp; products</h2></div>
+      <p class="section-lead">The catalog lives in <code>src/data/detail-catalog.json</code>, with top-level <code>blog</code> and <code>product</code> objects. Each object is keyed by a unique slug.</p>
+      <pre><span class="code-label">Example blog record · add inside the blog object</span><code>"your-new-article": {
+  "kind": "blog",
+  "slug": "your-new-article",
+  "title": "Your New Article",
+  "demos": ["main", "demo-three"],
+  "images": {
+    "main": "/assets/images/custom/your-article.jpg",
+    "demo-three": "/assets/images/custom/your-article.jpg"
+  },
+  "category": "Technology",
+  "author": "Your Author",
+  "price": "",
+  "oldPrice": "",
+  "description": "A short description for this article.",
+  "gallery": []
+}</code></pre>
+      <ol class="steps"><li><h3>Add the image</h3><p>For that example, save the file as <code>public/assets/images/custom/your-article.jpg</code>. Public asset URLs start with <code>/assets/</code>, not <code>/public/assets/</code>.</p></li><li><h3>Add the record and its demo membership</h3><p>Keep the object key and <code>slug</code> identical. Use lowercase words separated with hyphens. Include every demo where you want that record to be accessible.</p></li><li><h3>Add or update the card</h3><p>Edit the relevant homepage or shared archive component, including its visible title, image and <code>SiteLink</code> URL. Adding a catalog record does not automatically add a card to the original static listings.</p></li><li><h3>Verify the new page</h3><p>Open <code>/main/blog/your-new-article</code>, run <code>npm run verify</code>, then rebuild before production.</p></li></ol>
+      <h3>Product fields</h3><p>Use <code>"kind": "product"</code>, set <code>price</code> and optional <code>oldPrice</code>, and supply public image URLs in <code>gallery</code>. If a gallery is empty, the selected primary image is used. The stacked product variant displays up to the first four gallery images.</p>
+      <div class="callout"><strong>Detail data and article body are separate</strong>The catalog controls the primary fields. The long article body and supporting template sections remain in <code>src/components/template/BlogDetailsContent1.tsx</code> and the other detail components. For unique full article bodies, extend the record model and render that content, or connect a CMS. Do not assume that adding a new catalog title creates a full original article.</div>
+      <h3>Changing a default redirect</h3><p>Edit the corresponding flat route’s <code>page.tsx</code> redirect target. Keep <code>detail-defaults.json</code> consistent for migration tooling and tests. Make sure the target record belongs to that demo.</p>
+    </section>
+
+    <section class="doc-section" id="customization" data-label="Styling and assets customization">
+      <div class="section-top"><span class="section-num">06 /</span><h2>Make the design yours</h2></div>
+      <div class="cols"><div class="card"><h3>Logos &amp; images</h3><p>Shared logos are under <code>public/assets/images/common/</code>. Demo images have their own folders. Search the relevant header, footer or page for the exact <code>src</code> value before replacing a file.</p><p>Use descriptive alt text. Keep existing aspect-ratio wrappers and image classes to preserve the layouts.</p></div><div class="card"><h3>Global &amp; demo styles</h3><p><code>src/app/globals.css</code> provides shared application rules. The active demo’s compiled stylesheet is selected by <code>TemplateShell</code> from <code>public/assets/css/theme/</code>.</p><p>For reliable overrides, use sufficiently specific selectors and check both light/dark modes.</p></div></div>
+      <h3>Find the active theme first</h3><p>The route prefix and stylesheet name are not always identical. For example, <code>/main</code> selects <code>demo-seven.min.css</code>. Read the page’s <code>theme</code> prop before changing CSS.</p>
+      <pre><span class="code-label">Theme selection in a page/layout</span><code>&lt;TemplateShell
+  demo="main"
+  theme="/assets/css/theme/demo-seven.min.css"
+  bodyClass="uni-body panel bg-white text-gray-900 dark:bg-black dark:text-white"
+&gt;
+  {/* Page sections */}
+&lt;/TemplateShell&gt;</code></pre>
+      <div class="callout"><strong>SCSS is not automatically compiled</strong>The original sources are retained under <code>src/styles/scss/</code>, but <code>npm run dev</code> uses the included compiled CSS. A Sass rebuild requires configuring the original Bootstrap/Sass toolchain and its imports. Editing an SCSS file alone will not change the current site.</div>
+      <h3>Headers, footers &amp; navigation</h3><p>Look at the imports in the route’s <code>page.tsx</code> or detail layout to identify its shared header/footer component. An edit to a shared component affects every page that imports it.</p>
+      <h3>Placeholder links</h3><p>Envato and ThemeForest links have been replaced with <code>#</code> as requested. Other intentional sample links remain in the template. Replace placeholders with your own real destinations when preparing the site for your audience.</p>
+    </section>
+
+    <section class="doc-section" id="sliders" data-label="Sliders and interactions">
+      <div class="section-top"><span class="section-num">07 /</span><h2>Keep sliders working correctly</h2></div>
+      <p class="section-lead">The original Swiper settings are preserved. React owns initialization and cleanup through <code>templateSliders.ts</code>, while the template helper parses the data attributes.</p>
+      <pre><span class="code-label">Responsive slider markup</span><code>&lt;div className="swiper-parent"&gt;
+  &lt;div
+    className="swiper"
+    data-uc-swiper="items: 1; gap: 16; next: .nav-next; prev: .nav-prev;"
+    data-uc-swiper-s="items: 2;"
+    data-uc-swiper-m="items: 3; gap: 24;"
+  &gt;
+    &lt;div className="swiper-wrapper"&gt;
+      &lt;div className="swiper-slide"&gt;Slide one&lt;/div&gt;
+      &lt;div className="swiper-slide"&gt;Slide two&lt;/div&gt;
+      &lt;div className="swiper-slide"&gt;Slide three&lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;button className="nav-prev" type="button"&gt;Previous&lt;/button&gt;
+  &lt;button className="nav-next" type="button"&gt;Next&lt;/button&gt;
+&lt;/div&gt;</code></pre>
+      <div class="table-wrap"><table><thead><tr><th>Attribute / option</th><th>Meaning</th></tr></thead><tbody><tr><td><code>items</code> / <code>gap</code></td><td>Visible slides and spacing.</td></tr><tr><td><code>autoplay: 2500</code></td><td>Autoplay delay in milliseconds.</td></tr><tr><td><code>next</code> / <code>prev</code></td><td>Navigation selectors, scoped to the closest <code>.swiper-parent</code>.</td></tr><tr><td><code>dots</code></td><td>Pagination element selector.</td></tr><tr><td><code>connect: .swiper-thumbs</code></td><td>Link a main gallery to its thumbnail slider.</td></tr><tr><td><code>data-uc-swiper-xs / -s / -m / -l / -xl</code></td><td>Minimum widths of 480 / 640 / 960 / 1200 / 1600px in the original Swiper helper.</td></tr></tbody></table></div>
+      <div class="callout"><strong>Multiline settings must be real JavaScript strings</strong>Do not write a literal <code>\n</code> inside a quoted JSX attribute. Use an expression or template string so the helper receives real whitespace.</div>
+      <pre><code>data-uc-swiper={`items: 2;
+  gap: 4;
+  disable-class: last-slide;`}</code></pre>
+      <p>Thumbnail instances initialize before connected galleries. Layout updates run after images/fonts load, responsive width changes and relevant tab events. Slider instances are destroyed when a page leaves. Avoid adding a second initializer in a page or manually replaying <code>DOMContentLoaded</code>.</p>
+      <h3>Other interactions</h3><p><code>useTemplateRuntime.ts</code> manages dark mode storage, cookie notices, newsletter overlay timing, back-to-top behavior and lazy videos. UniCore supplies menus, modal windows, tabs and lightboxes.</p>
+      <p class="small">The application keeps <code>cacheComponents: false</code> so inactive pages do not retain conflicting global theme styles and widget IDs in hidden page trees. React Compiler remains enabled.</p>
+    </section>
+
+    <section class="doc-section" id="metadata" data-label="Metadata and SEO">
+      <div class="section-top"><span class="section-num">08 /</span><h2>Page titles &amp; metadata</h2></div>
+      <p>Default metadata is defined in <code>src/app/layout.tsx</code>. Static pages export <code>metadata</code>; slug pages use <code>generateMetadata</code> to select the record title, description and canonical route.</p>
+      <pre><span class="code-label">Static page example</span><code>import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Your Page - Your Brand",
+  description: "A useful description of this page.",
+};</code></pre>
+      <p>When deploying your own domain, configure <code>metadataBase</code> in the root metadata and review titles, descriptions, favicon, canonical URLs and social-sharing information.</p>
+      <pre><code>export const metadata: Metadata = {
+  metadataBase: new URL("https://your-domain.com"),
+  title: "Your Brand",
+  description: "Your site description.",
+};</code></pre>
+      <p class="small">The favicon is <code>src/app/favicon.ico</code>. Avoid hardcoding the original template vendor’s domain into canonical URLs.</p>
+    </section>
+
+    <section class="doc-section" id="integrations" data-label="Backend integrations and scope">
+      <div class="section-top"><span class="section-num">09 /</span><h2>Connect your real services</h2></div>
+      <p class="section-lead">This is a frontend template. Working modals, native validation and page navigation do not create accounts, process payments or save form submissions.</p>
+      <div class="table-wrap"><table><thead><tr><th>Feature</th><th>Included</th><th>Integration needed</th></tr></thead><tbody><tr><td>Blog / product details</td><td>Typed local catalog, slug lookup, layouts and metadata.</td><td>CMS/database for live content and unique long-form bodies.</td></tr><tr><td>Accounts</td><td>Login, registration, reset and account modal interfaces.</td><td>Authentication provider, sessions, email flows and OAuth.</td></tr><tr><td>Cart / checkout</td><td>Original cart/checkout screens and product UI.</td><td>Persistent cart, stock checks, payment provider and order storage.</td></tr><tr><td>Search / sorting</td><td>Search overlay, fields and template sort/filter controls.</td><td>Search index/API and real sorting/filtering logic.</td></tr><tr><td>Newsletter / contact</td><td>Forms and overlays.</td><td>Submission handlers, delivery service and server-side validation.</td></tr><tr><td>Comments / reviews</td><td>Template sections and review form.</td><td>Storage, moderation and authenticated submission rules.</td></tr></tbody></table></div>
+      <p>Keep credentials and service keys on the server. Add environment variables for the integrations you choose; the current static catalog does not require an <code>.env</code> file. Use <code>NEXT_PUBLIC_</code> only for values that may be visible in the browser.</p>
+    </section>
+
+    <section class="doc-section" id="testing" data-label="Testing and audits">
+      <div class="section-top"><span class="section-num">10 /</span><h2>Verify before you ship</h2></div>
+      <p class="section-lead">Run checks after changing data, links, shared markup, theme styles or slider settings.</p>
+      <pre><span class="code-label">Core checks</span><code>npm run verify
+npm run lint
+npm run build</code></pre>
+      <div class="table-wrap"><table><thead><tr><th>Command</th><th>What it checks</th></tr></thead><tbody><tr><td><code>npm run verify</code></td><td>Page modules, slug route patterns, catalog assets, local route targets and application HTML-injection restrictions. The standalone documentation folder is outside the application-source scan.</td></tr><tr><td><code>npm run lint</code></td><td>ESLint rules across project source and tooling.</td></tr><tr><td><code>npm run typecheck</code></td><td>Standalone TypeScript validation.</td></tr><tr><td><code>npm run build</code></td><td>Production compilation, TypeScript and prerendering.</td></tr><tr><td><code>npm run test:e2e</code></td><td>Playwright browser interactions, detail content, layouts and navigation.</td></tr><tr><td><code>npm run audit:site</code></td><td>Rendered static/slug URLs, title matching, internal links and local asset references.</td></tr><tr><td><code>npm run test:sliders</code></td><td>Desktop/mobile comparison against the original HTML template.</td></tr></tbody></table></div>
+      <h3>Browser tests</h3><pre><code>npx playwright install chromium
+npm run build
+npm run test:e2e</code></pre><p class="small">The test configuration starts a production server on port 3105 by default. <code>PLAYWRIGHT_BASE_URL</code> selects an already running server; <code>PLAYWRIGHT_CHROMIUM_EXECUTABLE</code> selects an installed browser. Screenshots and failure traces go to <code>test-results/</code>.</p>
+      <h3>Complete URL audit</h3><p>Start production on port 3108 in one terminal, then run the audit in another.</p><pre><code>npm run start -- -p 3108</code></pre><pre><code>npm run audit:site</code></pre><p class="small">Override <code>NEWS5_NEXT_URL</code> if you use a different server. The original HTML comparison additionally needs the original <code>dist</code> directory; override <code>NEWS5_HTML_REFERENCE</code> when necessary.</p>
+      <div class="callout info"><strong>Recorded audit · 08 November 2026</strong>1,802 URLs and 459 unique local asset paths checked; 35 browser tests and 100 slider comparisons passed. These are a dated verification snapshot, not a substitute for rerunning checks after changes. See <code>reports/QA-REPORT.md</code> for scope and dependency findings.</div>
+      <p>Use <code>npm audit</code> and <code>npm audit --omit=dev</code> to distinguish development-tooling advisories from production dependency findings. Review compatibility before applying breaking dependency changes.</p>
+    </section>
+
+    <section class="doc-section" id="deployment" data-label="Production deployment">
+      <div class="section-top"><span class="section-num">11 /</span><h2>Build for production</h2></div>
+      <pre><code>npm ci
+npm run build
+npm run start</code></pre>
+      <p>Use a host that supports the Next.js Node runtime and App Router, or deploy the repository through a Next.js-compatible platform. The current project is not configured as a plain static HTML export; valid alternate detail slugs can render on demand.</p>
+      <div class="cols"><div class="card"><h3>Hosting configuration</h3><ul><li>Project root: the folder containing <code>package.json</code>.</li><li>Install command: <code>npm ci</code>.</li><li>Build command: <code>npm run build</code>.</li><li>Start command for a Node host: <code>npm run start</code>.</li><li>Set integration environment variables through the hosting platform.</li></ul></div><div class="card"><h3>Before launch</h3><ul><li>Set your domain metadata and brand assets.</li><li>Replace sample content and intentional placeholders.</li><li>Connect the backend-dependent workflows you need.</li><li>Test both light/dark mode and mobile navigation.</li><li>Verify required routes on the deployed domain.</li></ul></div></div>
+      <div class="callout"><strong>Documentation is separate</strong>Open this <code>documentation/index.html</code> directly in a browser, or serve the folder with any static file server. It is outside <code>public/</code>, so the Next.js app does not expose it at <code>/documentation</code> by default.</div>
+    </section>
+
+    <section class="doc-section" id="troubleshooting" data-label="Troubleshooting">
+      <div class="section-top"><span class="section-num">12 /</span><h2>Common questions</h2></div>
+      <details><summary>A slug returns 404.</summary><p>Check the catalog key, its <code>slug</code> value and the <code>demos</code> array. The requested demo must be included. Confirm the route prefix is <code>blog</code> or <code>shop</code> (or a supported variant), then rebuild the production application.</p></details>
+      <details><summary>I added a record, but it does not appear in an archive.</summary><p>The original listing markup is static. Add a matching card and link in the relevant homepage/archive component, or replace that listing with a data-driven render of <code>getDetails()</code>.</p></details>
+      <details><summary>My CSS or SCSS change is not visible.</summary><p>Inspect the route’s <code>TemplateShell</code> theme prop. The app loads compiled CSS; it does not automatically compile the retained SCSS. Check CSS specificity, browser cache and the active demo’s exact stylesheet.</p></details>
+      <details><summary>A slider’s arrows control the wrong section.</summary><p>Keep controls inside that slider’s closest <code>.swiper-parent</code> and use selectors that identify its own buttons. Preserve the <code>.swiper-wrapper</code>/<code>.swiper-slide</code> structure. Do not initialize the same instance twice.</p></details>
+      <details><summary>Vertical thumbnails or mobile spacing look wrong.</summary><p>Inspect multiline data attributes for literal <code>\n</code> sequences and use JSX string expressions instead. Check the original Swiper breakpoint suffixes; they are different from the Bootstrap-style breakpoint names used elsewhere in the theme.</p></details>
+      <details><summary>React reports a hydration mismatch.</summary><p>Check invalid HTML nesting and browser-only code running during server rendering. Keep vendor initialization in the page runtime after hydration; avoid inserting another copy of the original template’s head/app scripts.</p></details>
+      <details><summary>A form looks valid, but nothing is saved.</summary><p>Native form validation and the template’s UI are included. Accounts, search results, newsletters, payments and stored submissions need the backend integrations described in section 09.</p></details>
+      <details><summary>Can I rerun the HTML conversion script?</summary><p><code>npm run convert:template -- ../news5-html/template/src</code> regenerates converted routes, shared template components, detail layouts and catalog data. It can overwrite manual edits. Keep a committed backup and review the changes before using it on a customized project. The original HTML source is required only for this migration command.</p></details>
+      <details><summary>Does this project use Tailwind?</summary><p>No. The template uses its original Bootstrap/UniCore-based styles and utility classes. Class names such as <code>lg:...</code> belong to the included theme utilities and do not imply that Tailwind is installed.</p></details>
+      <div class="callout info"><strong>A useful starting point</strong>For a new customization, inspect one page’s imports, follow its shared components, update the relevant data/assets, and rerun the focused checks. Keep your changes small enough to compare with the original design.</div>
+    </section>
+    <footer class="end"><span><strong>NEWS5</strong> · Next.js project documentation</span><span>Local guide · v0.1.0 · 08 November 2026</span></footer>
+  </main>
+  <script>
+    (() => {
+      const search = document.getElementById('search');
+      const sections = Array.from(document.querySelectorAll('section.doc-section'));
+      const links = Array.from(document.querySelectorAll('#toc a'));
+      const sidebar = document.getElementById('sidebar');
+      const backdrop = document.getElementById('backdrop');
+      const menu = document.getElementById('menu-toggle');
+      const noResults = document.getElementById('no-results');
+      const index = new Map(sections.map(section => [section.id, section.textContent.toLowerCase()]));
+      function toggleMenu(open) {
+        sidebar.classList.toggle('open', open);
+        backdrop.hidden = !open;
+        backdrop.classList.toggle('open', open);
+        menu.setAttribute('aria-expanded', String(open));
+        menu.setAttribute('aria-label', open ? 'Close documentation navigation' : 'Open documentation navigation');
+      }
+      function filter() {
+        const query = search.value.trim().toLowerCase();
+        let count = 0;
+        sections.forEach(section => {
+          const match = !query || query.split(/\s+/).every(term => index.get(section.id).includes(term));
+          section.hidden = !match;
+          if (match) count++;
+          const link = links.find(item => item.hash === '#' + section.id);
+          if (link) link.hidden = !match;
+        });
+        noResults.hidden = count > 0;
+      }
+      search.addEventListener('input', filter);
+      menu.addEventListener('click', () => toggleMenu(!sidebar.classList.contains('open')));
+      backdrop.addEventListener('click', () => toggleMenu(false));
+      links.forEach(link => link.addEventListener('click', () => toggleMenu(false)));
+      document.addEventListener('keydown', event => {
+        if ((event.ctrlKey || event.metaKey) && event.key.toLowerCase() === 'k') { event.preventDefault(); search.focus(); search.select(); }
+        if (event.key === 'Escape') { search.value = ''; filter(); toggleMenu(false); }
+      });
+      window.addEventListener('beforeprint', () => { search.value = ''; filter(); });
+      document.getElementById('print').addEventListener('click', () => window.print());
+      const observer = new IntersectionObserver(entries => {
+        const visible = entries.filter(entry => entry.isIntersecting && !entry.target.hidden).sort((a, b) => a.boundingClientRect.top - b.boundingClientRect.top);
+        if (!visible.length) return;
+        links.forEach(link => {
+          const active = link.hash === '#' + visible[0].target.id;
+          link.classList.toggle('active', active);
+          if (active) link.setAttribute('aria-current', 'location'); else link.removeAttribute('aria-current');
+        });
+      }, { rootMargin: '-10% 0px -65% 0px', threshold: 0 });
+      sections.forEach(section => observer.observe(section));
+      async function copyText(value) {
+        try { if (navigator.clipboard && window.isSecureContext) { await navigator.clipboard.writeText(value); return true; } } catch (_) {}
+        const textarea = document.createElement('textarea');
+        textarea.value = value; textarea.style.position = 'fixed'; textarea.style.opacity = '0'; document.body.appendChild(textarea); textarea.select();
+        let copied = false; try { copied = document.execCommand('copy'); } catch (_) {}
+        textarea.remove(); return copied;
+      }
+      document.querySelectorAll('pre').forEach(pre => {
+        const code = pre.querySelector('code');
+        if (!code) return;
+        const button = document.createElement('button'); button.type = 'button'; button.className = 'copy'; button.textContent = 'Copy'; button.setAttribute('aria-label', 'Copy code example');
+        button.addEventListener('click', async () => { const copied = await copyText(code.textContent); button.textContent = copied ? 'Copied' : 'Select code'; if (!copied) { const range = document.createRange(); range.selectNodeContents(code); const selection = window.getSelection(); selection.removeAllRanges(); selection.addRange(range); } setTimeout(() => { button.textContent = 'Copy'; }, 1800); });
+        pre.appendChild(button);
+      });
+    })();
+  </script>
+</body>
+</html>
