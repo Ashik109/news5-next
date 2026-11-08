@@ -533,7 +533,7 @@ export default function Page() {
               </ul>
             </div>
             <div className="uc-navbar-right">
-              <a href="https://1.envato.market/GmzvE6" target="_blank" className="animate-btn btn btn-sm lg:btn-md btn-dark dark:bg-white dark:border-white dark:text-dark text-none gap-0 rounded-pill">
+              <a href="#" className="animate-btn btn btn-sm lg:btn-md btn-dark dark:bg-white dark:border-white dark:text-dark text-none gap-0 rounded-pill">
                 <span>
                   {"Try it now"}
                 </span>
@@ -556,7 +556,7 @@ export default function Page() {
           <p className="fs-6 md:fs-5 lg:fs-3 -ls-xs fw-medium text-gray-500 dark:text-gray-300">
             {"Full-featured, professional-looking news, editorial and magazine design that concentrates all the attention on the content you share, highlighting your expertise in the media field."}
           </p>
-          <a href="https://1.envato.market/GmzvE6" target="_blank" className="animate-btn btn btn-md lg:btn-lg btn-primary dark:bg-lime dark:text-black dark:border-lime text-none gap-0 rounded-pill mt-4">
+          <a href="#" className="animate-btn btn btn-md lg:btn-lg btn-primary dark:bg-lime dark:text-black dark:border-lime text-none gap-0 rounded-pill mt-4">
             <span>
               {"Buy News 5"}
             </span>
@@ -1342,7 +1342,7 @@ export default function Page() {
             <p className="fs-6 md:fs-5 lg:fs-4 -ls-xs fw-medium text-gray-500 dark:text-gray-300">
               {"The premium news site template you've been looking for."}
             </p>
-            <a href="https://1.envato.market/GmzvE6" target="_blank" className="btn btn-md xl:btn-lg btn-primary dark:bg-lime dark:border-lime dark:text-dark rounded-pill gap-2 mt-4 xl:mt-6">
+            <a href="#" className="btn btn-md xl:btn-lg btn-primary dark:bg-lime dark:border-lime dark:text-dark rounded-pill gap-2 mt-4 xl:mt-6">
               <span>
                 {"Try it Now"}
               </span>

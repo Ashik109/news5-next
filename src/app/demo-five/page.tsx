@@ -1206,7 +1206,7 @@ export default function Page() {
                       <div className="panel w-100 overflow-hidden">
                         <div className="ratio ratio-3x4 overflow-hidden rounded">
                           <img src="/assets/images/common/menu-banner.jpg" alt="Let's build anything with News5!" />
-                          <a className="position-cover" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank"></a>
+                          <a className="position-cover" href="#"></a>
                         </div>
                       </div>
                     </div>
@@ -4342,7 +4342,7 @@ export default function Page() {
                     </h4>
                   </div>
                   <div className="widgt-content">
-                    <a className="cstack max-w-300px mx-auto text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+                    <a className="cstack max-w-300px mx-auto text-none" href="#" rel="nofollow">
                       <img className="d-block dark:d-none rounded" src="/assets/images/common/ad-slot-aside.jpg" alt="Ad slot" />
                       <img className="d-none dark:d-block rounded" src="/assets/images/common/ad-slot-aside-2.jpg" alt="Ad slot" />
                     </a>

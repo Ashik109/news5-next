@@ -2079,7 +2079,7 @@ export default function Page() {
                       <div className="panel w-100 overflow-hidden">
                         <div className="ratio ratio-3x4 overflow-hidden">
                           <img src="/assets/images/common/menu-banner.jpg" alt="Let's build anything with News5!" />
-                          <a className="position-cover" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank"></a>
+                          <a className="position-cover" href="#"></a>
                         </div>
                       </div>
                     </div>
@@ -2502,7 +2502,7 @@ export default function Page() {
     <div className="section-outer panel">
       <div className="container max-w-xl">
         <div className="section-inner rounded overflow-hidden">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot-2.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile-2.jpg" alt="Ad slot" />
           </a>
@@ -4784,7 +4784,7 @@ export default function Page() {
               <div className="sidebar-wrap panel vstack gap-2 pb-2" data-uc-sticky="end: .content-wrap; offset: 150; media: @m;">
                 <div className="widget ad-widget vstack gap-2 text-center p-2 border">
                   <div className="widgt-content">
-                    <a className="cstack max-w-300px mx-auto text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+                    <a className="cstack max-w-300px mx-auto text-none" href="#" rel="nofollow">
                       <img className="d-block dark:d-none" src="/assets/images/common/ad-slot-aside.jpg" alt="Ad slot" />
                       <img className="d-none dark:d-block" src="/assets/images/common/ad-slot-aside-2.jpg" alt="Ad slot" />
                     </a>

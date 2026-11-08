@@ -1551,7 +1551,7 @@ export default function ShopSidebarContent1() {
                       </a>
                     </li>
                     <li>
-                      <a className="w-40px h-40px d-inline-flex justify-center items-center rounded-circle border transition-all duration-200 ease-in hover:scale-110" href="https://themeforest.net/user/unistudioco">
+                      <a className="w-40px h-40px d-inline-flex justify-center items-center rounded-circle border transition-all duration-200 ease-in hover:scale-110" href="#">
                         <i className="unicon-logo-instagram icon-1 xl:icon-2"></i>
                       </a>
                     </li>

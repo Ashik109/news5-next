@@ -345,7 +345,7 @@ export default function Page() {
               </div>
               <div className="col-3 d-none xl:d-block">
                 <div className="sidebar-wrap panel" data-uc-sticky="end: .sticky-col-1; offset: 85; media: @m;">
-                  <a className="mx-auto text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+                  <a className="mx-auto text-none" href="#" rel="nofollow">
                     <img className="d-block dark:d-none" src="/assets/images/common/ad-desktop.jpg" alt="Ad slot" />
                     <img className="d-none dark:d-block" src="/assets/images/common/ad-slot-aside.jpg" alt="Ad slot" />
                   </a>
@@ -651,7 +651,7 @@ export default function Page() {
               </div>
               <div className="d-none lg:d-block xl:d-none sm:order-1">
                 <div className="sidebar-wrap panel" data-uc-sticky="end: .block-bottom; offset: 100; media: @m;">
-                  <a className="mx-auto text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+                  <a className="mx-auto text-none" href="#" rel="nofollow">
                     <img className="d-block dark:d-none" src="/assets/images/common/ad-desktop.jpg" alt="Ad slot" />
                     <img className="d-none dark:d-block" src="/assets/images/common/ad-slot-aside.jpg" alt="Ad slot" />
                   </a>
@@ -855,7 +855,7 @@ export default function Page() {
     <div className="section-outer panel py-4 md:py-6 lg:py-8 xl:py-9">
       <div className="container max-w-2xl p-0 sm:px-2 lg:px-4 xl:px-0">
         <div className="section-inner">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot-2.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile-2.jpg" alt="Ad slot" />
           </a>
@@ -1649,7 +1649,7 @@ export default function Page() {
                     </div>
                     <div className="col-3 d-none xl:d-block">
                       <div className="sidebar-wrap panel text-center" data-uc-sticky="end: .sticky-col-2; offset: 85; media: @m;">
-                        <a className="mx-auto text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+                        <a className="mx-auto text-none" href="#" rel="nofollow">
                           <img className="d-block dark:d-none" src="/assets/images/common/ad-desktop.jpg" alt="Ad slot" />
                           <img className="d-none dark:d-block" src="/assets/images/common/ad-slot-aside.jpg" alt="Ad slot" />
                         </a>
@@ -2286,7 +2286,7 @@ export default function Page() {
     <div className="section-outer panel">
       <div className="container max-w-2xl p-0 sm:px-2 lg:px-4 xl:px-0">
         <div className="section-inner">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot-2.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile-2.jpg" alt="Ad slot" />
           </a>

@@ -1376,7 +1376,7 @@ export default function Header1() {
                       <div className="panel w-100 overflow-hidden">
                         <div className="ratio ratio-3x4 overflow-hidden rounded">
                           <img src="/assets/images/common/menu-banner.jpg" alt="Let's build anything with News5!" />
-                          <a className="position-cover" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank"></a>
+                          <a className="position-cover" href="#"></a>
                         </div>
                       </div>
                     </div>

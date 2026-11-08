@@ -64,7 +64,7 @@ export default function BlogDetails2Content1({ detail }: { detail: DetailRecord 
                 </a>
               </li>
               <li>
-                <a className="w-40px xl:w-48px h-40px xl:h-48px d-inline-flex justify-center items-center rounded-circle border transition-all duration-200 ease-in hover:scale-110" href="https://themeforest.net/user/unistudioco">
+                <a className="w-40px xl:w-48px h-40px xl:h-48px d-inline-flex justify-center items-center rounded-circle border transition-all duration-200 ease-in hover:scale-110" href="#">
                   <i className="unicon-logo-facebook icon-1 xl:icon-2"></i>
                 </a>
               </li>

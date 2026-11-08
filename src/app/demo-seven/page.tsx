@@ -337,7 +337,7 @@ export default function Page() {
     <div className="section-outer panel pt-5 lg:pt-8">
       <div className="container max-w-xl">
         <div className="section-inner">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile.jpg" alt="Ad slot" />
           </a>
@@ -1270,7 +1270,7 @@ export default function Page() {
     <div className="section-outer panel">
       <div className="container max-w-xl">
         <div className="section-inner">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile.jpg" alt="Ad slot" />
           </a>
@@ -1906,7 +1906,7 @@ export default function Page() {
     <div className="section-outer panel pt-5 lg:pt-8">
       <div className="container max-w-xl">
         <div className="section-inner">
-          <a className="text-none" href="https://themeforest.net/user/reacthemes/portfolio" target="_blank" rel="nofollow">
+          <a className="text-none" href="#" rel="nofollow">
             <img className="d-none md:d-block" src="/assets/images/common/ad-slot-2.jpg" alt="Ad slot" />
             <img className="d-block md:d-none" src="/assets/images/common/ad-slot-mobile-2.jpg" alt="Ad slot" />
           </a>

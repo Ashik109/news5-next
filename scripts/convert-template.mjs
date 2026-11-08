@@ -24,9 +24,11 @@ const attrNames = { class: 'className', for: 'htmlFor', tabindex: 'tabIndex', co
 const booleans = new Set(['hidden', 'required', 'disabled', 'multiple', 'loop', 'muted', 'controls', 'playsinline', 'readonly', 'open', 'reversed', 'novalidate']);
 const voids = new Set(['area', 'base', 'br', 'col', 'embed', 'hr', 'img', 'input', 'link', 'meta', 'param', 'source', 'track', 'wbr']);
 const broken = new Set();
+const isEnvatoLink = value => /^(?:https?:)?\/\/(?:[a-z0-9-]+\.)*(?:envato\.(?:com|market)|themeforest\.net|codecanyon\.net|graphicriver\.net|videohive\.net|audiojungle\.net|photodune\.net|3docean\.net)(?=[/:?#]|$)/i.test(value);
 
 function url(value, file) {
   value = value.trim().replace(/\.htmll(?=[?#]|$)/, '.html');
+  if (isEnvatoLink(value)) return '#';
   if (value.includes('/mailto:')) value = value.slice(value.indexOf('mailto:'));
   if (/(^|\/)to_top$/.test(value)) return '#to_top';
   if (!value || /^(?:[a-z][\w+.-]*:|\/\/|#|\?)/i.test(value)) return value;
@@ -54,6 +56,7 @@ function jsx(node, file, depth = 0) {
   }
   if (!node.name || ['script', 'noscript'].includes(node.name)) return '';
   const a = { ...node.attribs };
+  if (node.name === 'a' && a.href && isEnvatoLink(a.href)) delete a.target;
   let tag = node.name === 'a' && a.href && (node.detailLink || /\.html(?:[?#]|$)/.test(a.href)) && !/^(https?:|\/\/)/.test(a.href) ? 'Link' : node.name;
   if (tag === 'Link' && file.includes('/')) {
     const resolved = url(a.href, file);
