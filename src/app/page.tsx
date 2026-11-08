@@ -131,17 +131,17 @@ export default function Page() {
               </ul>
             </li>
             <li className="uc-parent">
-              <Link prefetch={false} href="/main/blog-details">
+              <Link prefetch={false} href="/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                 {"Blog - detail"}
               </Link>
               <ul className="uc-nav-sub">
                 <li>
-                  <Link prefetch={false} href="/main/blog-details">
+                  <Link prefetch={false} href="/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail"}
                   </Link>
                 </li>
                 <li>
-                  <Link prefetch={false} href="/main/blog-details-2">
+                  <Link prefetch={false} href="/main/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail - v2"}
                   </Link>
                 </li>
@@ -241,12 +241,12 @@ export default function Page() {
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/main/shop-product-detail">
+              <Link prefetch={false} href="/main/shop/disney-toys">
                 {"Product detail"}
               </Link>
             </li>
             <li>
-              <Link prefetch={false} href="/main/shop-product-detail-2">
+              <Link prefetch={false} href="/main/shop-product-detail-2/disney-toys">
                 {"Product detail - v2"}
               </Link>
             </li>
@@ -342,11 +342,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-07.jpg" alt="Laptop Cover" data-uc-img="loading: lazy" />
-                  <Link prefetch={false} href="/main/shop-product-detail" className="position-cover" data-caption="Laptop Cover"></Link>
+                  <Link prefetch={false} href="/main/shop/laptop-cover" className="position-cover" data-caption="Laptop Cover"></Link>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop-product-detail">
+                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop/laptop-cover">
                       {"Laptop Cover"}
                     </Link>
                   </h5>
@@ -374,11 +374,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                  <Link prefetch={false} href="/main/shop-product-detail" className="position-cover" data-caption="Disney Toys"></Link>
+                  <Link prefetch={false} href="/main/shop/disney-toys" className="position-cover" data-caption="Disney Toys"></Link>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop-product-detail">
+                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop/disney-toys">
                       {"Disney Toys"}
                     </Link>
                   </h5>
@@ -406,11 +406,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-09.jpg" alt="Screen Axe" data-uc-img="loading: lazy" />
-                  <Link prefetch={false} href="/main/shop-product-detail" className="position-cover" data-caption="Screen Axe"></Link>
+                  <Link prefetch={false} href="/main/shop/screen-axe" className="position-cover" data-caption="Screen Axe"></Link>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop-product-detail">
+                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop/screen-axe">
                       {"Screen Axe"}
                     </Link>
                   </h5>
@@ -438,11 +438,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-10.jpg" alt="Airpods Pro" data-uc-img="loading: lazy" />
-                  <Link prefetch={false} href="/main/shop-product-detail" className="position-cover" data-caption="Airpods Pro"></Link>
+                  <Link prefetch={false} href="/main/shop/airpods-pro" className="position-cover" data-caption="Airpods Pro"></Link>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop-product-detail">
+                    <Link prefetch={false} className="text-none text-dark dark:text-white" href="/main/shop/airpods-pro">
                       {"Airpods Pro"}
                     </Link>
                   </h5>
@@ -1004,7 +1004,7 @@ export default function Page() {
                             <div className="panel rounded-1 shadow-xs hover:shadow-md transition-all duration-250 hover:-translate-y-1 overflow-hidden">
                               <div className="panel overflow-hidden">
                                 <img className="w-100" src="/assets/images/demos/screenshots/main/blog-details.jpg" alt="Blog details 1" />
-                                <Link prefetch={false} href="/main/blog-details" className="position-cover" target="_blank"></Link>
+                                <Link prefetch={false} href="/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover" target="_blank"></Link>
                               </div>
                             </div>
                             <h5 className="h6 mt-2 text-center">
@@ -1017,7 +1017,7 @@ export default function Page() {
                             <div className="panel rounded-1 shadow-xs hover:shadow-md transition-all duration-250 hover:-translate-y-1 overflow-hidden">
                               <div className="panel overflow-hidden">
                                 <img className="w-100" src="/assets/images/demos/screenshots/main/blog-details-2.jpg" alt="Blog details 2" />
-                                <Link prefetch={false} href="/main/blog-details-2" className="position-cover" target="_blank"></Link>
+                                <Link prefetch={false} href="/main/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover" target="_blank"></Link>
                               </div>
                             </div>
                             <h5 className="h6 mt-2 text-center">
@@ -1030,7 +1030,7 @@ export default function Page() {
                             <div className="panel rounded-1 shadow-xs hover:shadow-md transition-all duration-250 hover:-translate-y-1 overflow-hidden">
                               <div className="panel overflow-hidden">
                                 <img className="w-100" src="/assets/images/demos/screenshots/main/blog-details-3.jpg" alt="Blog details 3" />
-                                <Link prefetch={false} href="/main/blog-details-3" className="position-cover" target="_blank"></Link>
+                                <Link prefetch={false} href="/main/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover" target="_blank"></Link>
                               </div>
                             </div>
                             <h5 className="h6 mt-2 text-center">
@@ -1161,7 +1161,7 @@ export default function Page() {
                             <div className="panel rounded-1 shadow-xs hover:shadow-md transition-all duration-250 hover:-translate-y-1 overflow-hidden">
                               <div className="panel overflow-hidden">
                                 <img className="w-100" src="/assets/images/demos/screenshots/main/shop-product-detail.jpg" alt="Product Detail" />
-                                <Link prefetch={false} href="/main/shop-product-detail" className="position-cover" target="_blank"></Link>
+                                <Link prefetch={false} href="/main/shop/disney-toys" className="position-cover" target="_blank"></Link>
                               </div>
                             </div>
                             <h5 className="h6 mt-2 text-center">
@@ -1174,7 +1174,7 @@ export default function Page() {
                             <div className="panel rounded-1 shadow-xs hover:shadow-md transition-all duration-250 hover:-translate-y-1 overflow-hidden">
                               <div className="panel overflow-hidden">
                                 <img className="w-100" src="/assets/images/demos/screenshots/main/shop-product-detail-2.jpg" alt="Product Detail v2" />
-                                <Link prefetch={false} href="/main/shop-product-detail-2" className="position-cover" target="_blank"></Link>
+                                <Link prefetch={false} href="/main/shop-product-detail-2/disney-toys" className="position-cover" target="_blank"></Link>
                               </div>
                             </div>
                             <h5 className="h6 mt-2 text-center">

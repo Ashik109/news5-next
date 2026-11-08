@@ -123,17 +123,17 @@ export default function MobileMenu6() {
               </ul>
             </li>
             <li className="uc-parent">
-              <SiteLink href="/blog-details">
+              <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                 {"Blog - detail"}
               </SiteLink>
               <ul className="uc-nav-sub">
                 <li>
-                  <SiteLink href="/blog-details">
+                  <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail"}
                   </SiteLink>
                 </li>
                 <li>
-                  <SiteLink href="/blog-details-2">
+                  <SiteLink href="/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail - v2"}
                   </SiteLink>
                 </li>
@@ -233,12 +233,12 @@ export default function MobileMenu6() {
               </SiteLink>
             </li>
             <li>
-              <SiteLink href="/shop-product-detail">
+              <SiteLink href="/shop/disney-toys">
                 {"Product detail"}
               </SiteLink>
             </li>
             <li>
-              <SiteLink href="/shop-product-detail-2">
+              <SiteLink href="/shop-product-detail-2/disney-toys">
                 {"Product detail - v2"}
               </SiteLink>
             </li>

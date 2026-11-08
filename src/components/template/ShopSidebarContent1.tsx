@@ -80,7 +80,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-01.jpg" alt="Elegant Watch" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Elegant Watch"></SiteLink>
+                        <SiteLink href="/shop/elegant-watch" className="position-cover" data-caption="Elegant Watch"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -91,7 +91,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/elegant-watch">
                           {"Elegant Watch"}
                         </SiteLink>
                       </h5>
@@ -133,7 +133,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-02.jpg" alt="Hemp Seed" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Hemp Seed"></SiteLink>
+                        <SiteLink href="/shop/hemp-seed" className="position-cover" data-caption="Hemp Seed"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -141,7 +141,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/hemp-seed">
                           {"Hemp Seed"}
                         </SiteLink>
                       </h5>
@@ -180,7 +180,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-03.jpg" alt="White Classic Watch" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="White Classic Watch"></SiteLink>
+                        <SiteLink href="/shop/white-classic-watch" className="position-cover" data-caption="White Classic Watch"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -191,7 +191,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/white-classic-watch">
                           {"White Classic Watch"}
                         </SiteLink>
                       </h5>
@@ -233,7 +233,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-04.jpg" alt="Stylish Starbucks" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
+                        <SiteLink href="/shop/stylish-starbucks" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -241,7 +241,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/stylish-starbucks">
                           {"Stylish Starbucks"}
                         </SiteLink>
                       </h5>
@@ -280,7 +280,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-05.jpg" alt="Black AirTag" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Black AirTag"></SiteLink>
+                        <SiteLink href="/shop/black-airtag" className="position-cover" data-caption="Black AirTag"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -288,7 +288,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/black-airtag">
                           {"Black AirTag"}
                         </SiteLink>
                       </h5>
@@ -327,7 +327,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-06.jpg" alt="Modern Headsets" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Modern Headsets"></SiteLink>
+                        <SiteLink href="/shop/modern-headsets" className="position-cover" data-caption="Modern Headsets"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -335,7 +335,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/modern-headsets">
                           {"Modern Headsets"}
                         </SiteLink>
                       </h5>
@@ -374,7 +374,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-07.jpg" alt="Laptop Cover" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Laptop Cover"></SiteLink>
+                        <SiteLink href="/shop/laptop-cover" className="position-cover" data-caption="Laptop Cover"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -385,7 +385,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/laptop-cover">
                           {"Laptop Cover"}
                         </SiteLink>
                       </h5>
@@ -427,7 +427,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Disney Toys"></SiteLink>
+                        <SiteLink href="/shop/disney-toys" className="position-cover" data-caption="Disney Toys"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -438,7 +438,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/disney-toys">
                           {"Disney Toys"}
                         </SiteLink>
                       </h5>
@@ -480,7 +480,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-09.jpg" alt="Screen Axe" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Screen Axe"></SiteLink>
+                        <SiteLink href="/shop/screen-axe" className="position-cover" data-caption="Screen Axe"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -491,7 +491,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/screen-axe">
                           {"Screen Axe"}
                         </SiteLink>
                       </h5>
@@ -533,7 +533,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-10.jpg" alt="Airpods Pro" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Airpods Pro"></SiteLink>
+                        <SiteLink href="/shop/airpods-pro" className="position-cover" data-caption="Airpods Pro"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -544,7 +544,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/airpods-pro">
                           {"Airpods Pro"}
                         </SiteLink>
                       </h5>
@@ -586,7 +586,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-11.jpg" alt="USB Cable" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="USB Cable"></SiteLink>
+                        <SiteLink href="/shop/usb-cable" className="position-cover" data-caption="USB Cable"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -597,7 +597,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/usb-cable">
                           {"USB Cable"}
                         </SiteLink>
                       </h5>
@@ -622,7 +622,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-12.jpg" alt="Stylish Decoration" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Stylish Decoration"></SiteLink>
+                        <SiteLink href="/shop/stylish-decoration" className="position-cover" data-caption="Stylish Decoration"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -630,7 +630,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/stylish-decoration">
                           {"Stylish Decoration"}
                         </SiteLink>
                       </h5>
@@ -669,7 +669,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-13.jpg" alt="Elegant Tree" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Elegant Tree"></SiteLink>
+                        <SiteLink href="/shop/elegant-tree" className="position-cover" data-caption="Elegant Tree"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -680,7 +680,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/elegant-tree">
                           {"Elegant Tree"}
                         </SiteLink>
                       </h5>
@@ -705,7 +705,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-14.jpg" alt="Classic Printer" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Classic Printer"></SiteLink>
+                        <SiteLink href="/shop/classic-printer" className="position-cover" data-caption="Classic Printer"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -713,7 +713,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/classic-printer">
                           {"Classic Printer"}
                         </SiteLink>
                       </h5>
@@ -752,7 +752,7 @@ export default function ShopSidebarContent1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-3x4 overflow-hidden uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-15.jpg" alt="Sportive Shoes" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Sportive Shoes"></SiteLink>
+                        <SiteLink href="/shop/sportive-shoes" className="position-cover" data-caption="Sportive Shoes"></SiteLink>
                       </figure>
                       <a href="#add_to_favorite" className="btn btn-md btn-alt-gray-200 hover:bg-primary w-32px h-32px p-0 rounded-circle shadow-xs position-absolute top-0 end-0 m-1 md:m-2">
                         <i className="icon icon-narrow unicon-favorite-filled"></i>
@@ -763,7 +763,7 @@ export default function ShopSidebarContent1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 md:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/sportive-shoes">
                           {"Sportive Shoes"}
                         </SiteLink>
                       </h5>
@@ -893,12 +893,12 @@ export default function ShopSidebarContent1() {
                           <div className="panel">
                             <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                               <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-05.jpg" alt="Black AirTag" data-uc-img="loading: lazy" />
-                              <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Black AirTag"></SiteLink>
+                              <SiteLink href="/shop/black-airtag" className="position-cover" data-caption="Black AirTag"></SiteLink>
                             </figure>
                           </div>
                           <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                             <h5 className="h6 m-0">
-                              <SiteLink className="text-none" href="/shop-product-detail">
+                              <SiteLink className="text-none" href="/shop/black-airtag">
                                 {"Black AirTag"}
                               </SiteLink>
                             </h5>
@@ -934,12 +934,12 @@ export default function ShopSidebarContent1() {
                           <div className="panel">
                             <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                               <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-06.jpg" alt="Modern Headsets" data-uc-img="loading: lazy" />
-                              <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Modern Headsets"></SiteLink>
+                              <SiteLink href="/shop/modern-headsets" className="position-cover" data-caption="Modern Headsets"></SiteLink>
                             </figure>
                           </div>
                           <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                             <h5 className="h6 m-0">
-                              <SiteLink className="text-none" href="/shop-product-detail">
+                              <SiteLink className="text-none" href="/shop/modern-headsets">
                                 {"Modern Headsets"}
                               </SiteLink>
                             </h5>
@@ -975,7 +975,7 @@ export default function ShopSidebarContent1() {
                           <div className="panel">
                             <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                               <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-07.jpg" alt="Laptop Cover" data-uc-img="loading: lazy" />
-                              <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Laptop Cover"></SiteLink>
+                              <SiteLink href="/shop/laptop-cover" className="position-cover" data-caption="Laptop Cover"></SiteLink>
                             </figure>
                             <span className="position-absolute top-0 start-0 m-1 fs-7 ft-secondary lh-sm h-16px px-narrow rounded bg-yellow-400 text-dark">
                               {"70%"}
@@ -983,7 +983,7 @@ export default function ShopSidebarContent1() {
                           </div>
                           <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                             <h5 className="h6 m-0">
-                              <SiteLink className="text-none" href="/shop-product-detail">
+                              <SiteLink className="text-none" href="/shop/laptop-cover">
                                 {"Laptop Cover"}
                               </SiteLink>
                             </h5>
@@ -1022,7 +1022,7 @@ export default function ShopSidebarContent1() {
                           <div className="panel">
                             <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                               <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                              <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Disney Toys"></SiteLink>
+                              <SiteLink href="/shop/disney-toys" className="position-cover" data-caption="Disney Toys"></SiteLink>
                             </figure>
                             <span className="position-absolute top-0 start-0 m-1 fs-7 ft-secondary lh-sm h-16px px-narrow rounded bg-yellow-400 text-dark">
                               {"75%"}
@@ -1030,7 +1030,7 @@ export default function ShopSidebarContent1() {
                           </div>
                           <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                             <h5 className="h6 m-0">
-                              <SiteLink className="text-none" href="/shop-product-detail">
+                              <SiteLink className="text-none" href="/shop/disney-toys">
                                 {"Disney Toys"}
                               </SiteLink>
                             </h5>
@@ -1081,7 +1081,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-07.jpg" alt="Laptop Cover" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Laptop Cover"></SiteLink>
+                                <SiteLink href="/shop/laptop-cover" className="position-cover" data-caption="Laptop Cover"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"70%"}
@@ -1091,7 +1091,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/laptop-cover">
                                   {"Laptop Cover"}
                                 </SiteLink>
                               </h4>
@@ -1132,7 +1132,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Disney Toys"></SiteLink>
+                                <SiteLink href="/shop/disney-toys" className="position-cover" data-caption="Disney Toys"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"75%"}
@@ -1142,7 +1142,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/disney-toys">
                                   {"Disney Toys"}
                                 </SiteLink>
                               </h4>
@@ -1183,7 +1183,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-09.jpg" alt="Screen Axe" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Screen Axe"></SiteLink>
+                                <SiteLink href="/shop/screen-axe" className="position-cover" data-caption="Screen Axe"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"50%"}
@@ -1193,7 +1193,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/screen-axe">
                                   {"Screen Axe"}
                                 </SiteLink>
                               </h4>
@@ -1234,7 +1234,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-10.jpg" alt="Airpods Pro" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Airpods Pro"></SiteLink>
+                                <SiteLink href="/shop/airpods-pro" className="position-cover" data-caption="Airpods Pro"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"30%"}
@@ -1244,7 +1244,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/airpods-pro">
                                   {"Airpods Pro"}
                                 </SiteLink>
                               </h4>
@@ -1296,7 +1296,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-01.jpg" alt="Elegant Watch" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Elegant Watch"></SiteLink>
+                                <SiteLink href="/shop/elegant-watch" className="position-cover" data-caption="Elegant Watch"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"51%"}
@@ -1306,7 +1306,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/elegant-watch">
                                   {"Elegant Watch"}
                                 </SiteLink>
                               </h4>
@@ -1347,14 +1347,14 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-02.jpg" alt="Hemp Seed" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Hemp Seed"></SiteLink>
+                                <SiteLink href="/shop/hemp-seed" className="position-cover" data-caption="Hemp Seed"></SiteLink>
                               </figure>
                             </div>
                           </div>
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/hemp-seed">
                                   {"Hemp Seed"}
                                 </SiteLink>
                               </h4>
@@ -1392,7 +1392,7 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-03.jpg" alt="White Classic Watch" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="White Classic Watch"></SiteLink>
+                                <SiteLink href="/shop/white-classic-watch" className="position-cover" data-caption="White Classic Watch"></SiteLink>
                               </figure>
                               <span className="position-absolute top-0 start-0 m-narrow fs-7 ft-secondary lh-sm h-16px px-narrow bg-yellow-400 text-dark">
                                 {"67%"}
@@ -1402,7 +1402,7 @@ export default function ShopSidebarContent1() {
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/white-classic-watch">
                                   {"White Classic Watch"}
                                 </SiteLink>
                               </h4>
@@ -1443,14 +1443,14 @@ export default function ShopSidebarContent1() {
                             <div className="panel w-64px xl:w-80px">
                               <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-04.jpg" alt="Stylish Starbucks" data-uc-img="loading: lazy" />
-                                <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
+                                <SiteLink href="/shop/stylish-starbucks" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
                               </figure>
                             </div>
                           </div>
                           <div className="col">
                             <div className="panel vstack gap-1">
                               <h4 className="h6 m-0">
-                                <SiteLink className="text-none" href="/shop-product-detail">
+                                <SiteLink className="text-none" href="/shop/stylish-starbucks">
                                   {"Stylish Starbucks"}
                                 </SiteLink>
                               </h4>

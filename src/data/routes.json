@@ -3,7 +3,7 @@
     "route": "/",
     "source": "index.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "31e8741dfa33"
+    "hash": "111f25ddcb2f"
   },
   {
     "route": "/demo-eight/404",
@@ -15,61 +15,61 @@
     "route": "/demo-eight/blog-2cols",
     "source": "demo-eight/blog-2cols.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "4e5f9e21c1ac"
+    "hash": "1b78ddd90a6c"
   },
   {
     "route": "/demo-eight/blog-3cols",
     "source": "demo-eight/blog-3cols.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "00a84c37e605"
+    "hash": "d902e174df99"
   },
   {
     "route": "/demo-eight/blog-4cols",
     "source": "demo-eight/blog-4cols.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "1ae2f79dd32b"
+    "hash": "6ef0224d85c1"
   },
   {
     "route": "/demo-eight/blog-author",
     "source": "demo-eight/blog-author.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "b69612e2b46a"
+    "hash": "b7c3c6856869"
   },
   {
     "route": "/demo-eight/blog-category",
     "source": "demo-eight/blog-category.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "25cc56f493d7"
+    "hash": "f5ed1a120360"
   },
   {
     "route": "/demo-eight/blog-classic",
     "source": "demo-eight/blog-classic.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "63a2ad05f674"
+    "hash": "5c34b8f7eeb7"
   },
   {
     "route": "/demo-eight/blog-details-2",
     "source": "demo-eight/blog-details-2.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "f16840260882"
+    "target": "/demo-eight/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eight/blog-details-3",
     "source": "demo-eight/blog-details-3.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "c91fb0ff546e"
+    "target": "/demo-eight/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eight/blog-details",
     "source": "demo-eight/blog-details.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "e6007ec592a4"
+    "target": "/demo-eight/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eight/blog",
     "source": "demo-eight/blog.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "9e6e15d22a66"
+    "hash": "c956e8822b6e"
   },
   {
     "route": "/demo-eight/coming-soon",
@@ -81,7 +81,7 @@
     "route": "/demo-eight",
     "source": "demo-eight/index.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "4070d8fa38ec"
+    "hash": "2a0dbb5ba20d"
   },
   {
     "route": "/demo-eight/page-faq",
@@ -159,13 +159,13 @@
     "route": "/demo-eight/shop-product-detail-2",
     "source": "demo-eight/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "f9e4ff3ed6a6"
+    "target": "/demo-eight/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-eight/shop-product-detail",
     "source": "demo-eight/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-eight.min.css",
-    "hash": "1ebded3f7def"
+    "target": "/demo-eight/shop/disney-toys"
   },
   {
     "route": "/demo-eight/shop-sidebar",
@@ -237,19 +237,19 @@
     "route": "/demo-eleven/blog-details-2",
     "source": "demo-eleven/blog-details-2.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "e45857987193"
+    "target": "/demo-eleven/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eleven/blog-details-3",
     "source": "demo-eleven/blog-details-3.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "268730c44635"
+    "target": "/demo-eleven/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eleven/blog-details",
     "source": "demo-eleven/blog-details.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "2d14ee0f6124"
+    "target": "/demo-eleven/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-eleven/blog",
@@ -267,7 +267,7 @@
     "route": "/demo-eleven",
     "source": "demo-eleven/index.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "e0eb3708e47a"
+    "hash": "0ab97e1fe520"
   },
   {
     "route": "/demo-eleven/page-faq",
@@ -345,13 +345,13 @@
     "route": "/demo-eleven/shop-product-detail-2",
     "source": "demo-eleven/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "cbaacb8d0056"
+    "target": "/demo-eleven/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-eleven/shop-product-detail",
     "source": "demo-eleven/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "422e5f67e1b5"
+    "target": "/demo-eleven/shop/disney-toys"
   },
   {
     "route": "/demo-eleven/shop-sidebar",
@@ -387,61 +387,61 @@
     "route": "/demo-five/blog-2cols",
     "source": "demo-five/blog-2cols.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "c0761426545d"
+    "hash": "5dc7a21a0627"
   },
   {
     "route": "/demo-five/blog-3cols",
     "source": "demo-five/blog-3cols.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "461c8a632d27"
+    "hash": "852cd1cdc1f9"
   },
   {
     "route": "/demo-five/blog-4cols",
     "source": "demo-five/blog-4cols.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "4fefc9ac708b"
+    "hash": "09b2b5f2a0d3"
   },
   {
     "route": "/demo-five/blog-author",
     "source": "demo-five/blog-author.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "fa8698c32522"
+    "hash": "d3f6041b379e"
   },
   {
     "route": "/demo-five/blog-category",
     "source": "demo-five/blog-category.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "138d34a03e0f"
+    "hash": "d0d9824c5b60"
   },
   {
     "route": "/demo-five/blog-classic",
     "source": "demo-five/blog-classic.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "013cc52a59a5"
+    "hash": "c513e99df3a2"
   },
   {
     "route": "/demo-five/blog-details-2",
     "source": "demo-five/blog-details-2.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "d67f7b8950e0"
+    "target": "/demo-five/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-five/blog-details-3",
     "source": "demo-five/blog-details-3.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "858dfbe680e0"
+    "target": "/demo-five/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-five/blog-details",
     "source": "demo-five/blog-details.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "fa62087c5afe"
+    "target": "/demo-five/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-five/blog",
     "source": "demo-five/blog.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "fdd9b208a88f"
+    "hash": "8be3965206d8"
   },
   {
     "route": "/demo-five/coming-soon",
@@ -453,7 +453,7 @@
     "route": "/demo-five",
     "source": "demo-five/index.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "189ddcb84b00"
+    "hash": "8b284cb36361"
   },
   {
     "route": "/demo-five/page-faq",
@@ -531,13 +531,13 @@
     "route": "/demo-five/shop-product-detail-2",
     "source": "demo-five/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "62b5596bddf0"
+    "target": "/demo-five/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-five/shop-product-detail",
     "source": "demo-five/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-five.min.css",
-    "hash": "bf2e94e13479"
+    "target": "/demo-five/shop/disney-toys"
   },
   {
     "route": "/demo-five/shop-sidebar",
@@ -573,61 +573,61 @@
     "route": "/demo-four/blog-2cols",
     "source": "demo-four/blog-2cols.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "8acd11b7ee57"
+    "hash": "b79f6570eb21"
   },
   {
     "route": "/demo-four/blog-3cols",
     "source": "demo-four/blog-3cols.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "f5683785c85d"
+    "hash": "fae519fb4834"
   },
   {
     "route": "/demo-four/blog-4cols",
     "source": "demo-four/blog-4cols.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "25a6459a9ae8"
+    "hash": "dc259be876ba"
   },
   {
     "route": "/demo-four/blog-author",
     "source": "demo-four/blog-author.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "04c0184c1855"
+    "hash": "be53a16f5688"
   },
   {
     "route": "/demo-four/blog-category",
     "source": "demo-four/blog-category.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "49de8c7f8234"
+    "hash": "b3fc1ae9e73b"
   },
   {
     "route": "/demo-four/blog-classic",
     "source": "demo-four/blog-classic.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "63cd0166177f"
+    "hash": "e6deb5f4bfa4"
   },
   {
     "route": "/demo-four/blog-details-2",
     "source": "demo-four/blog-details-2.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "8b5ee87e013d"
+    "target": "/demo-four/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-four/blog-details-3",
     "source": "demo-four/blog-details-3.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "23cacf2333b3"
+    "target": "/demo-four/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-four/blog-details",
     "source": "demo-four/blog-details.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "33d1126116fd"
+    "target": "/demo-four/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-four/blog",
     "source": "demo-four/blog.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "7d4b9910ee18"
+    "hash": "a85d85aaa4ab"
   },
   {
     "route": "/demo-four/coming-soon",
@@ -639,7 +639,7 @@
     "route": "/demo-four",
     "source": "demo-four/index.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "38181ccadad8"
+    "hash": "1111d3e5a71b"
   },
   {
     "route": "/demo-four/page-faq",
@@ -717,13 +717,13 @@
     "route": "/demo-four/shop-product-detail-2",
     "source": "demo-four/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "886325436d93"
+    "target": "/demo-four/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-four/shop-product-detail",
     "source": "demo-four/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-four.min.css",
-    "hash": "2ebf26929ff3"
+    "target": "/demo-four/shop/disney-toys"
   },
   {
     "route": "/demo-four/shop-sidebar",
@@ -759,61 +759,61 @@
     "route": "/demo-nine/blog-2cols",
     "source": "demo-nine/blog-2cols.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "6050dd145d92"
+    "hash": "af3730271df8"
   },
   {
     "route": "/demo-nine/blog-3cols",
     "source": "demo-nine/blog-3cols.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "15b7920b2210"
+    "hash": "6a0e72116dcd"
   },
   {
     "route": "/demo-nine/blog-4cols",
     "source": "demo-nine/blog-4cols.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "00ebce8ea20f"
+    "hash": "45e832f710c5"
   },
   {
     "route": "/demo-nine/blog-author",
     "source": "demo-nine/blog-author.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "fcd9d5b662cd"
+    "hash": "3d78ca476c2e"
   },
   {
     "route": "/demo-nine/blog-category",
     "source": "demo-nine/blog-category.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "fceb9dab487a"
+    "hash": "0b08f4cec35e"
   },
   {
     "route": "/demo-nine/blog-classic",
     "source": "demo-nine/blog-classic.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "9984d3f5fb2d"
+    "hash": "9f4568524ce4"
   },
   {
     "route": "/demo-nine/blog-details-2",
     "source": "demo-nine/blog-details-2.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "6fc75f2a8473"
+    "target": "/demo-nine/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-nine/blog-details-3",
     "source": "demo-nine/blog-details-3.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "83581abb3386"
+    "target": "/demo-nine/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-nine/blog-details",
     "source": "demo-nine/blog-details.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "423f85168098"
+    "target": "/demo-nine/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-nine/blog",
     "source": "demo-nine/blog.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "9be5054896f6"
+    "hash": "ce5ac4809e44"
   },
   {
     "route": "/demo-nine/coming-soon",
@@ -825,7 +825,7 @@
     "route": "/demo-nine",
     "source": "demo-nine/index.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "f74404d9d461"
+    "hash": "e79a1547175a"
   },
   {
     "route": "/demo-nine/page-faq",
@@ -903,13 +903,13 @@
     "route": "/demo-nine/shop-product-detail-2",
     "source": "demo-nine/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "5f67040c05f7"
+    "target": "/demo-nine/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-nine/shop-product-detail",
     "source": "demo-nine/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-nine.min.css",
-    "hash": "b9e5f04f83d3"
+    "target": "/demo-nine/shop/disney-toys"
   },
   {
     "route": "/demo-nine/shop-sidebar",
@@ -945,61 +945,61 @@
     "route": "/demo-seven/blog-2cols",
     "source": "demo-seven/blog-2cols.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "c4b4027fd4d7"
+    "hash": "af04e274c552"
   },
   {
     "route": "/demo-seven/blog-3cols",
     "source": "demo-seven/blog-3cols.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "e3b78db52018"
+    "hash": "9df278cf8c05"
   },
   {
     "route": "/demo-seven/blog-4cols",
     "source": "demo-seven/blog-4cols.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "dbaf9c189464"
+    "hash": "da49df0d5753"
   },
   {
     "route": "/demo-seven/blog-author",
     "source": "demo-seven/blog-author.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "b4aee43849c9"
+    "hash": "a74b62a5a44f"
   },
   {
     "route": "/demo-seven/blog-category",
     "source": "demo-seven/blog-category.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "93ea7481a73b"
+    "hash": "111bfcde4ac0"
   },
   {
     "route": "/demo-seven/blog-classic",
     "source": "demo-seven/blog-classic.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "e70ddea1ef2f"
+    "hash": "0153a73d7137"
   },
   {
     "route": "/demo-seven/blog-details-2",
     "source": "demo-seven/blog-details-2.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "3e3b55189ff8"
+    "target": "/demo-seven/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-seven/blog-details-3",
     "source": "demo-seven/blog-details-3.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "0a2c1288a883"
+    "target": "/demo-seven/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-seven/blog-details",
     "source": "demo-seven/blog-details.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "ebd48506382f"
+    "target": "/demo-seven/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-seven/blog",
     "source": "demo-seven/blog.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "459065e32fae"
+    "hash": "46a29cc77dfb"
   },
   {
     "route": "/demo-seven/coming-soon",
@@ -1011,7 +1011,7 @@
     "route": "/demo-seven",
     "source": "demo-seven/index.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "586978bb7121"
+    "hash": "8b35da33d893"
   },
   {
     "route": "/demo-seven/page-faq",
@@ -1089,13 +1089,13 @@
     "route": "/demo-seven/shop-product-detail-2",
     "source": "demo-seven/shop-product-detail-2.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "56fcefcba1be"
+    "target": "/demo-seven/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-seven/shop-product-detail",
     "source": "demo-seven/shop-product-detail.html",
     "theme": "/assets/css/theme/main.min.css",
-    "hash": "5b6a6f9633e7"
+    "target": "/demo-seven/shop/disney-toys"
   },
   {
     "route": "/demo-seven/shop-sidebar",
@@ -1131,61 +1131,61 @@
     "route": "/demo-six/blog-2cols",
     "source": "demo-six/blog-2cols.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "02834b4f72b7"
+    "hash": "06bd726f3d2d"
   },
   {
     "route": "/demo-six/blog-3cols",
     "source": "demo-six/blog-3cols.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "ce5215ad8f15"
+    "hash": "32f5e46a9206"
   },
   {
     "route": "/demo-six/blog-4cols",
     "source": "demo-six/blog-4cols.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "0d87015ee871"
+    "hash": "44cff9a425a4"
   },
   {
     "route": "/demo-six/blog-author",
     "source": "demo-six/blog-author.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "7ab3b9327449"
+    "hash": "c5a26ebb2e9d"
   },
   {
     "route": "/demo-six/blog-category",
     "source": "demo-six/blog-category.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "8de08b95d8f0"
+    "hash": "4aabfe556e55"
   },
   {
     "route": "/demo-six/blog-classic",
     "source": "demo-six/blog-classic.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "62e7e504019c"
+    "hash": "5806acaf3d97"
   },
   {
     "route": "/demo-six/blog-details-2",
     "source": "demo-six/blog-details-2.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "5dae1c2a3c38"
+    "target": "/demo-six/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-six/blog-details-3",
     "source": "demo-six/blog-details-3.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "ba6fe2ef4feb"
+    "target": "/demo-six/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-six/blog-details",
     "source": "demo-six/blog-details.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "9181fab2e194"
+    "target": "/demo-six/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-six/blog",
     "source": "demo-six/blog.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "5ba460320a83"
+    "hash": "e76306474811"
   },
   {
     "route": "/demo-six/coming-soon",
@@ -1197,7 +1197,7 @@
     "route": "/demo-six",
     "source": "demo-six/index.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "c38f1d9a9ea8"
+    "hash": "d86d211f6cbf"
   },
   {
     "route": "/demo-six/page-faq",
@@ -1275,13 +1275,13 @@
     "route": "/demo-six/shop-product-detail-2",
     "source": "demo-six/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "f909192b55cd"
+    "target": "/demo-six/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-six/shop-product-detail",
     "source": "demo-six/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-six.min.css",
-    "hash": "c1970b295e4f"
+    "target": "/demo-six/shop/disney-toys"
   },
   {
     "route": "/demo-six/shop-sidebar",
@@ -1317,61 +1317,61 @@
     "route": "/demo-ten/blog-2cols",
     "source": "demo-ten/blog-2cols.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "01ed4a942845"
+    "hash": "61edbc8261d9"
   },
   {
     "route": "/demo-ten/blog-3cols",
     "source": "demo-ten/blog-3cols.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "3d2eec79fdcf"
+    "hash": "b27299ec083e"
   },
   {
     "route": "/demo-ten/blog-4cols",
     "source": "demo-ten/blog-4cols.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "81ec052994ac"
+    "hash": "a52447ac222a"
   },
   {
     "route": "/demo-ten/blog-author",
     "source": "demo-ten/blog-author.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "274113844a74"
+    "hash": "40222e343a44"
   },
   {
     "route": "/demo-ten/blog-category",
     "source": "demo-ten/blog-category.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "c51b27db4323"
+    "hash": "35c647b1bb86"
   },
   {
     "route": "/demo-ten/blog-classic",
     "source": "demo-ten/blog-classic.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "464860581699"
+    "hash": "39482940a90a"
   },
   {
     "route": "/demo-ten/blog-details-2",
     "source": "demo-ten/blog-details-2.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "134be99d834d"
+    "target": "/demo-ten/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-ten/blog-details-3",
     "source": "demo-ten/blog-details-3.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "8b0ead7a3919"
+    "target": "/demo-ten/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-ten/blog-details",
     "source": "demo-ten/blog-details.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "9e106ec1e8c8"
+    "target": "/demo-ten/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-ten/blog",
     "source": "demo-ten/blog.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "950778758593"
+    "hash": "1d0bcbc773dc"
   },
   {
     "route": "/demo-ten/coming-soon",
@@ -1383,7 +1383,7 @@
     "route": "/demo-ten",
     "source": "demo-ten/index.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "c08265d80fde"
+    "hash": "b4a49236d7f3"
   },
   {
     "route": "/demo-ten/page-faq",
@@ -1461,13 +1461,13 @@
     "route": "/demo-ten/shop-product-detail-2",
     "source": "demo-ten/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "c0c5ed1b7b16"
+    "target": "/demo-ten/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-ten/shop-product-detail",
     "source": "demo-ten/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-ten.min.css",
-    "hash": "c7f5abe4c68d"
+    "target": "/demo-ten/shop/disney-toys"
   },
   {
     "route": "/demo-ten/shop-sidebar",
@@ -1503,61 +1503,61 @@
     "route": "/demo-three/blog-2cols",
     "source": "demo-three/blog-2cols.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "a15ec190b4df"
+    "hash": "87bf7ff1dc9e"
   },
   {
     "route": "/demo-three/blog-3cols",
     "source": "demo-three/blog-3cols.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "b026ccf7100f"
+    "hash": "44d385320b8f"
   },
   {
     "route": "/demo-three/blog-4cols",
     "source": "demo-three/blog-4cols.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "1e3f6b44d644"
+    "hash": "237668189578"
   },
   {
     "route": "/demo-three/blog-author",
     "source": "demo-three/blog-author.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "b0c78c91deb9"
+    "hash": "9dbc9488ac3d"
   },
   {
     "route": "/demo-three/blog-category",
     "source": "demo-three/blog-category.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "42f3aaa7104b"
+    "hash": "abbf13cca4b5"
   },
   {
     "route": "/demo-three/blog-classic",
     "source": "demo-three/blog-classic.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "16bee65ea89f"
+    "hash": "c8d8d97aaa92"
   },
   {
     "route": "/demo-three/blog-details-2",
     "source": "demo-three/blog-details-2.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "535f90501a2d"
+    "target": "/demo-three/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-three/blog-details-3",
     "source": "demo-three/blog-details-3.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "775dffa9cd0e"
+    "target": "/demo-three/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-three/blog-details",
     "source": "demo-three/blog-details.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "e89122f4f118"
+    "target": "/demo-three/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-three/blog",
     "source": "demo-three/blog.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "8647c4dd79a9"
+    "hash": "db8f28c18d58"
   },
   {
     "route": "/demo-three/coming-soon",
@@ -1569,7 +1569,7 @@
     "route": "/demo-three",
     "source": "demo-three/index.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "1b8abebe8875"
+    "hash": "8681ea7fb5cd"
   },
   {
     "route": "/demo-three/page-faq",
@@ -1647,13 +1647,13 @@
     "route": "/demo-three/shop-product-detail-2",
     "source": "demo-three/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "274f47e76746"
+    "target": "/demo-three/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-three/shop-product-detail",
     "source": "demo-three/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-three.min.css",
-    "hash": "636e3f01b69e"
+    "target": "/demo-three/shop/disney-toys"
   },
   {
     "route": "/demo-three/shop-sidebar",
@@ -1689,61 +1689,61 @@
     "route": "/demo-two/blog-2cols",
     "source": "demo-two/blog-2cols.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "8223617857c5"
+    "hash": "f4e0479de981"
   },
   {
     "route": "/demo-two/blog-3cols",
     "source": "demo-two/blog-3cols.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "a34ed0a0b704"
+    "hash": "9ee8ed69fca4"
   },
   {
     "route": "/demo-two/blog-4cols",
     "source": "demo-two/blog-4cols.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "ce3bf3b903d0"
+    "hash": "393879710347"
   },
   {
     "route": "/demo-two/blog-author",
     "source": "demo-two/blog-author.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "59dc85932918"
+    "hash": "bdffb94f1bce"
   },
   {
     "route": "/demo-two/blog-category",
     "source": "demo-two/blog-category.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "44ad1c875b3b"
+    "hash": "9cc0daec348f"
   },
   {
     "route": "/demo-two/blog-classic",
     "source": "demo-two/blog-classic.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "30c30ad6fbbf"
+    "hash": "5232e56806af"
   },
   {
     "route": "/demo-two/blog-details-2",
     "source": "demo-two/blog-details-2.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "8a22f3fd73df"
+    "target": "/demo-two/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-two/blog-details-3",
     "source": "demo-two/blog-details-3.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "2032486a8364"
+    "target": "/demo-two/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-two/blog-details",
     "source": "demo-two/blog-details.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "44740ac8731e"
+    "target": "/demo-two/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/demo-two/blog",
     "source": "demo-two/blog.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "e39630634470"
+    "hash": "b7d2aabfd200"
   },
   {
     "route": "/demo-two/coming-soon",
@@ -1755,7 +1755,7 @@
     "route": "/demo-two",
     "source": "demo-two/index.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "9703e83dacb0"
+    "hash": "a6f2cc9024d3"
   },
   {
     "route": "/demo-two/page-faq",
@@ -1833,13 +1833,13 @@
     "route": "/demo-two/shop-product-detail-2",
     "source": "demo-two/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "a1b3e0a9a37c"
+    "target": "/demo-two/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/demo-two/shop-product-detail",
     "source": "demo-two/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-two.min.css",
-    "hash": "497d0b81a7ea"
+    "target": "/demo-two/shop/disney-toys"
   },
   {
     "route": "/demo-two/shop-sidebar",
@@ -1911,19 +1911,19 @@
     "route": "/main/blog-details-2",
     "source": "main/blog-details-2.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "f0417fd45895"
+    "target": "/main/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/main/blog-details-3",
     "source": "main/blog-details-3.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "5f76336c0e97"
+    "target": "/main/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/main/blog-details",
     "source": "main/blog-details.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "a358feda6e0c"
+    "target": "/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks"
   },
   {
     "route": "/main/blog",
@@ -1941,7 +1941,7 @@
     "route": "/main",
     "source": "main/index.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "c3debb540c14"
+    "hash": "326917431103"
   },
   {
     "route": "/main/page-faq",
@@ -2019,13 +2019,13 @@
     "route": "/main/shop-product-detail-2",
     "source": "main/shop-product-detail-2.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "3b7fc9a8b2fa"
+    "target": "/main/shop-product-detail-2/disney-toys"
   },
   {
     "route": "/main/shop-product-detail",
     "source": "main/shop-product-detail.html",
     "theme": "/assets/css/theme/demo-seven.min.css",
-    "hash": "52ad2ab07452"
+    "target": "/main/shop/disney-toys"
   },
   {
     "route": "/main/shop-sidebar",

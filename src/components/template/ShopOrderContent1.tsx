@@ -62,7 +62,7 @@ export default function ShopOrderContent1() {
                     <tr>
                       <td>
                         <h5 className="title h6 m-0">
-                          <SiteLink href="/shop-product-detail" className="text-none">
+                          <SiteLink href="/shop/disney-toys" className="text-none">
                             {"Laptop Cover"}
                           </SiteLink>
                           {" x 1"}
@@ -77,7 +77,7 @@ export default function ShopOrderContent1() {
                     <tr>
                       <td>
                         <h5 className="title h6 m-0">
-                          <SiteLink href="/shop-product-detail" className="text-none">
+                          <SiteLink href="/shop/disney-toys" className="text-none">
                             {"Disney Toys"}
                           </SiteLink>
                           {" x 1"}
@@ -92,7 +92,7 @@ export default function ShopOrderContent1() {
                     <tr>
                       <td>
                         <h5 className="title h6 m-0">
-                          <SiteLink href="/shop-product-detail" className="text-none">
+                          <SiteLink href="/shop/disney-toys" className="text-none">
                             {"Screen Axe"}
                           </SiteLink>
                           {" x 1"}
@@ -107,7 +107,7 @@ export default function ShopOrderContent1() {
                     <tr>
                       <td>
                         <h5 className="title h6 m-0">
-                          <SiteLink href="/shop-product-detail" className="text-none">
+                          <SiteLink href="/shop/disney-toys" className="text-none">
                             {"Airpods Pro"}
                           </SiteLink>
                           {" x 1"}

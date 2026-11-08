@@ -3,6 +3,7 @@ import path from 'node:path';
 import crypto from 'node:crypto';
 import { parse } from 'parse5';
 import { adapter } from 'parse5-htmlparser2-tree-adapter';
+import { prepareDetailMigration, variants, detailRouteSource } from './detail-migration.mjs';
 
 // One-time migration: the generated application never reads HTML at runtime.
 const root = process.cwd();
@@ -32,7 +33,7 @@ function url(value, file) {
   const index = value.search(/[?#]/);
   const pathname = index < 0 ? value : value.slice(0, index);
   const suffix = index < 0 ? '' : value.slice(index);
-  const resolved = path.posix.normalize(path.posix.join('/', path.posix.dirname(file), pathname));
+  const resolved = path.posix.normalize(pathname.startsWith('/') ? pathname : path.posix.join('/', path.posix.dirname(file), pathname));
   if (resolved.startsWith('/assets/')) {
     const asset = fs.existsSync(path.join(source, resolved)) ? resolved : resolved.replace('/common/my-account.jpg', '/common/my-accounts.jpg').replace('/common/ad-mobile.jpg', '/common/ad-slot-mobile.jpg');
     return asset + suffix;
@@ -46,13 +47,14 @@ function url(value, file) {
 }
 
 function jsx(node, file, depth = 0) {
+  if (node.detailText) return `{${node.detailText}}`;
   if (node.type === 'text') {
     const value = node.data.replace(/\s+/g, ' ');
     return value.trim() ? `{${quote(value)}}` : '';
   }
   if (!node.name || ['script', 'noscript'].includes(node.name)) return '';
   const a = { ...node.attribs };
-  let tag = node.name === 'a' && a.href && /\.html(?:[?#]|$)/.test(a.href) && !/^(https?:|\/\/)/.test(a.href) ? 'Link' : node.name;
+  let tag = node.name === 'a' && a.href && (node.detailLink || /\.html(?:[?#]|$)/.test(a.href)) && !/^(https?:|\/\/)/.test(a.href) ? 'Link' : node.name;
   if (tag === 'Link' && file.includes('/')) {
     const resolved = url(a.href, file);
     const demo = file.split('/')[0];
@@ -62,6 +64,7 @@ function jsx(node, file, depth = 0) {
     }
   }
   const props = [];
+  if (node.detailKey) props.push('key={index}');
   if (tag === 'Link') props.push('prefetch={false}');
   if (node.name === 'img' && !('alt' in a)) a.alt = '';
   if (node.name === 'img' && a['data-src'] && (!a.src || a.src.includes('placeholder'))) a.src = a['data-src'];
@@ -70,6 +73,7 @@ function jsx(node, file, depth = 0) {
     if (selected) a.defaultValue = selected.attribs.value ?? text(selected);
   }
   for (let [key, value] of Object.entries(a)) {
+    if (node.detailAttrs?.[key]) { props.push(`${attrNames[key] || key}={${node.detailAttrs[key]}}`); continue; }
     if (/^on/i.test(key) || key === 'selected' || key === 'autofocus') continue;
     if (['href', 'src', 'data-src', 'poster', 'action'].includes(key) && !(tag === 'SiteLink' && key === 'href')) value = url(value, file);
     if (key === 'style') {
@@ -96,15 +100,20 @@ function jsx(node, file, depth = 0) {
   }
   const opening = `<${tag}${props.length ? ' ' + props.join(' ') : ''}`;
   if (voids.has(node.name)) return opening + ' />';
-  const children = (node.children || []).map(n => jsx(n, file, depth + 1)).filter(Boolean);
+  const children = node.detailGallery
+    ? [`{detail.gallery${node.detailGalleryLimit ? `.slice(0, ${node.detailGalleryLimit})` : ''}.map((image, index) => (${jsx(node.children.find(n => n.detailKey), file, depth + 1)}))}`]
+    : (node.children || []).map(n => jsx(n, file, depth + 1)).filter(Boolean);
   if (node.name === 'textarea') return opening + ` defaultValue={${quote(text(node))}} />`;
   if (!children.length) return opening + `></${tag}>`;
   const indent = '  '.repeat(depth);
   return opening + '>\n' + children.map(c => indent + '  ' + c).join('\n') + '\n' + indent + `</${tag}>`;
 }
 
-const documents = files.map(file => {
-  const doc = parse(fs.readFileSync(path.join(source, file), 'utf8'), { treeAdapter: adapter });
+const parsed = files.map(file => ({ file, doc: parse(fs.readFileSync(path.join(source, file), 'utf8'), { treeAdapter: adapter }) }));
+const { catalog, defaults } = prepareDetailMigration(parsed);
+write('src/data/detail-catalog.json', JSON.stringify(catalog, null, 2) + '\n');
+write('src/data/detail-defaults.json', JSON.stringify(defaults, null, 2) + '\n');
+const documents = parsed.map(({ file, doc }) => {
   const body = find(doc, 'body');
   const head = find(doc, 'head');
   const styles = elements(head).filter(n => n.name === 'link' && n.attribs.rel === 'stylesheet').map(n => url(n.attribs.href, file).replace('.min.purge.css', '.min.css'));
@@ -129,10 +138,12 @@ for (const doc of documents) {
     counts[base] = (counts[base] || 0) + 1;
     const name = `${base}${counts[base]}`;
     shared.set(entry.code, name);
-    write(`src/components/template/${name}.tsx`, `${entry.code.includes('<Link ') ? 'import Link from "next/link";\n' : ''}${entry.code.includes('<SiteLink ') ? 'import { SiteLink } from "@/components/DemoContext";\n' : ''}\nexport default function ${name}() {\n  return (\n    ${entry.code}\n  );\n}\n`);
+    const detailed = entry.code.includes('detail.');
+    write(`src/components/template/${name}.tsx`, `${entry.code.includes('<Link ') ? 'import Link from "next/link";\n' : ''}${entry.code.includes('<SiteLink ') ? 'import { SiteLink } from "@/components/DemoContext";\n' : ''}${detailed ? 'import type { DetailRecord } from "@/data/details";\n' : ''}\nexport default function ${name}(${detailed ? '{ detail }: { detail: DetailRecord }' : ''}) {\n  return (\n    ${entry.code}\n  );\n}\n`);
   }
 }
 const manifest = [];
+const detailRoutes = [];
 for (const doc of documents) {
   const route = '/' + doc.file.replace(/index\.html$/, '').replace(/\.html$/, '').replace(/\/$/, '');
   const folder = `src/app${route === '/' ? '' : route}`;
@@ -141,9 +152,26 @@ for (const doc of documents) {
     const name = shared.get(code);
     if (!name) return code;
     imports.add(name);
-    return `<${name} />`;
+    return `<${name}${code.includes('detail.') ? ' detail={detail}' : ''} />`;
   }).join('\n');
   const theme = doc.styles.find(s => s.includes('/theme/'));
+  const variant = path.posix.basename(doc.file, '.html');
+  const config = variants[variant];
+  if (config) {
+    const demo = doc.file.split('/')[0];
+    const defaultSlug = defaults[`${demo}/${variant}`];
+    const target = `/${demo}/${config.base}/${defaultSlug}`;
+    const layout = `src/components/details/${demo}/${variant}.tsx`;
+    write(layout, `import type { DetailRecord } from "@/data/details";\n${content.includes('<Link ') ? 'import Link from "next/link";\n' : ''}${content.includes('<SiteLink ') ? 'import { SiteLink } from "@/components/DemoContext";\n' : ''}import TemplateShell from "@/components/TemplateShell";\n${[...imports].map(n => `import ${n} from "@/components/template/${n}";`).join('\n')}\n\nexport default function DetailLayout({ detail }: { detail: DetailRecord }) {\n  return (<TemplateShell demo="${demo}" theme="${theme}" bodyClass=${quote(doc.body.attribs.class || '')}>\n${content}\n</TemplateShell>);\n}\n`);
+    write(`${folder}/page.tsx`, `import { redirect } from "next/navigation";\n\nexport default function Page() { redirect(${quote(target)}); }\n`);
+    for (const base of [...new Set([config.base, variant])]) {
+      const pattern = `/${demo}/${base}/[slug]`;
+      write(`src/app${pattern}/page.tsx`, detailRouteSource(demo, variant, config.kind, base, defaultSlug));
+      detailRoutes.push({ route: pattern, demo, kind: config.kind, variant, defaultSlug });
+    }
+    manifest.push({ route, source: doc.file, theme, target });
+    continue;
+  }
   write(`${folder}/page.tsx`, `import type { Metadata } from "next";\n${content.includes('<Link ') ? 'import Link from "next/link";\n' : ''}${content.includes('<SiteLink ') ? 'import { SiteLink } from "@/components/DemoContext";\n' : ''}import TemplateShell from "@/components/TemplateShell";\n${[...imports].map(n => `import ${n} from "@/components/template/${n}";`).join('\n')}\n\nexport const metadata: Metadata = { title: ${quote(doc.title || 'News5')} };\n\nexport default function Page() {\n  return (\n    <TemplateShell demo=${quote(doc.file.includes('/') ? doc.file.split('/')[0] : 'main')} theme=${quote(theme)} bodyClass=${quote(doc.body.attribs.class || '')}>\n${content}\n    </TemplateShell>\n  );\n}\n`);
   manifest.push({ route: route || '/', source: doc.file, theme, hash: crypto.createHash('sha256').update(content).digest('hex').slice(0, 12) });
 }
@@ -171,6 +199,7 @@ for (const name of ['page.module.css']) {
   if (fs.existsSync(file)) fs.unlinkSync(file);
 }
 write('src/data/routes.json', JSON.stringify(manifest, null, 2) + '\n');
+write('src/data/detail-routes.json', JSON.stringify(detailRoutes, null, 2) + '\n');
 write('src/app/not-found.tsx', 'export { default } from "./main/404/page";\n');
 console.log(`Converted ${documents.length} pages and ${shared.size} shared components.`);
 if (broken.size) console.log('Unresolved source links:', [...broken]);

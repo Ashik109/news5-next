@@ -1,6 +1,6 @@
 # News5 Next.js
 
-Complete React/Next.js conversion of the News5 template: 342 App Router pages, all 11 demos, the demo preview landing page, blog archives/details, author/category pages, shop/cart/checkout layouts, account screens, FAQ, policy pages, coming soon and 404 designs. Uses TypeScript and the original Bootstrap/UniCore CSS and SCSS; no Tailwind.
+Complete React/Next.js conversion of all 342 News5 template screens, plus data-driven slug routes for blog and product details across all 11 demos. Includes the demo preview landing page, archives, author/category pages, shop/cart/checkout layouts, account screens, FAQ, policy pages, coming soon and 404 designs. Uses TypeScript and the original Bootstrap/UniCore CSS and SCSS; no Tailwind.
 
 ## Run locally
 
@@ -11,7 +11,11 @@ npm run dev
 
 Open http://localhost:3000 for the original demo preview. The main news layout is `/main`. Other homepages are `/demo-two`, `/demo-three`, `/demo-four`, `/demo-five`, `/demo-six`, `/demo-seven`, `/demo-eight`, `/demo-nine`, `/demo-ten` and `/demo-eleven`.
 
-Inner pages retain their original names without the extension, e.g. `/main/blog-details`, `/demo-three/blog`, `/demo-nine/shop-product-detail` and `/main/sign-in`. `src/data/routes.json` lists every converted route.
+Inner pages retain their original names without the extension, e.g. `/demo-three/blog` and `/main/sign-in`. `src/data/routes.json` lists the original converted routes.
+
+Details use named slugs, e.g. `/main/blog/the-rise-of-gourmet-street-food-trends-and-top-picks` and `/main/shop/disney-toys`. Alternate layouts use `/main/blog-details-2/[slug]`, `/main/blog-details-3/[slug]` and `/main/shop-product-detail-2/[slug]`. The `/blog-details/[slug]` and `/shop-product-detail/[slug]` aliases are also supported. Every demo has the same route pattern under its own prefix.
+
+Blog/product cards link to their own record; slug pages select the matching title, primary image, metadata and product prices/gallery. Unknown slugs return 404. Old flat detail URLs redirect to the template's default post or product. Canonical detail records are prerendered with `generateStaticParams`; alternate layouts can also render valid catalog slugs on demand.
 
 On Windows PowerShell with restricted script execution, use `npm.cmd` instead of `npm`.
 
@@ -19,6 +23,9 @@ On Windows PowerShell with restricted script execution, use `npm.cmd` instead of
 
 - `src/app/`: individual `.tsx` routes and page metadata.
 - `src/components/template/`: shared headers, footers, overlays and page sections, rendered as real JSX.
+- `src/components/details/`: original detail layouts receiving a typed record.
+- `src/data/detail-catalog.json` and `details.ts`: template-derived post/product data and validated slug lookups.
+- `src/data/detail-routes.json`: all 77 slug route patterns across the 11 demos.
 - `src/components/DemoContext.tsx`: demo-aware Next.js links that keep visitors in their selected theme.
 - `src/components/TemplateShell.tsx`: original page classes and theme stylesheet selection.
 - `src/components/useTemplateRuntime.ts`: browser initialization after page hydration, dark mode persistence, menus, sliders, cookie notices and lazy videos, including client navigation lifecycle.

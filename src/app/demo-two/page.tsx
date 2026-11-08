@@ -135,17 +135,17 @@ export default function Page() {
               </ul>
             </li>
             <li className="uc-parent">
-              <SiteLink href="/blog-details">
+              <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                 {"Blog - detail"}
               </SiteLink>
               <ul className="uc-nav-sub">
                 <li>
-                  <SiteLink href="/blog-details">
+                  <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail"}
                   </SiteLink>
                 </li>
                 <li>
-                  <SiteLink href="/blog-details-2">
+                  <SiteLink href="/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks">
                     {"Blog detail - v2"}
                   </SiteLink>
                 </li>
@@ -245,12 +245,12 @@ export default function Page() {
               </SiteLink>
             </li>
             <li>
-              <SiteLink href="/shop-product-detail">
+              <SiteLink href="/shop/disney-toys">
                 {"Product detail"}
               </SiteLink>
             </li>
             <li>
-              <SiteLink href="/shop-product-detail-2">
+              <SiteLink href="/shop-product-detail-2/disney-toys">
                 {"Product detail - v2"}
               </SiteLink>
             </li>
@@ -346,11 +346,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-07.jpg" alt="Laptop Cover" data-uc-img="loading: lazy" />
-                  <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Laptop Cover"></SiteLink>
+                  <SiteLink href="/shop/laptop-cover" className="position-cover" data-caption="Laptop Cover"></SiteLink>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <SiteLink className="text-none text-dark dark:text-white" href="/shop-product-detail">
+                    <SiteLink className="text-none text-dark dark:text-white" href="/shop/laptop-cover">
                       {"Laptop Cover"}
                     </SiteLink>
                   </h5>
@@ -378,11 +378,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                  <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Disney Toys"></SiteLink>
+                  <SiteLink href="/shop/disney-toys" className="position-cover" data-caption="Disney Toys"></SiteLink>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <SiteLink className="text-none text-dark dark:text-white" href="/shop-product-detail">
+                    <SiteLink className="text-none text-dark dark:text-white" href="/shop/disney-toys">
                       {"Disney Toys"}
                     </SiteLink>
                   </h5>
@@ -410,11 +410,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-09.jpg" alt="Screen Axe" data-uc-img="loading: lazy" />
-                  <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Screen Axe"></SiteLink>
+                  <SiteLink href="/shop/screen-axe" className="position-cover" data-caption="Screen Axe"></SiteLink>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <SiteLink className="text-none text-dark dark:text-white" href="/shop-product-detail">
+                    <SiteLink className="text-none text-dark dark:text-white" href="/shop/screen-axe">
                       {"Screen Axe"}
                     </SiteLink>
                   </h5>
@@ -442,11 +442,11 @@ export default function Page() {
               <div className="hstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-1x1 w-80px uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-10.jpg" alt="Airpods Pro" data-uc-img="loading: lazy" />
-                  <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Airpods Pro"></SiteLink>
+                  <SiteLink href="/shop/airpods-pro" className="position-cover" data-caption="Airpods Pro"></SiteLink>
                 </figure>
                 <div className="content vstack gap-narrow fs-6">
                   <h5 className="h6 m-0">
-                    <SiteLink className="text-none text-dark dark:text-white" href="/shop-product-detail">
+                    <SiteLink className="text-none text-dark dark:text-white" href="/shop/airpods-pro">
                       {"Airpods Pro"}
                     </SiteLink>
                   </h5>
@@ -569,7 +569,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                                   {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                                 </SiteLink>
                               </h3>
@@ -578,7 +578,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className="uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -607,7 +607,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                                   {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                                 </SiteLink>
                               </h3>
@@ -616,7 +616,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className="uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -645,7 +645,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                                   {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                                 </SiteLink>
                               </h3>
@@ -654,7 +654,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -683,7 +683,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                                   {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                                 </SiteLink>
                               </h3>
@@ -692,7 +692,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -721,7 +721,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                   {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                                 </SiteLink>
                               </h3>
@@ -730,7 +730,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -759,7 +759,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                                   {"Business Agility the Digital Age: Leveraging AI and Automation"}
                                 </SiteLink>
                               </h3>
@@ -768,7 +768,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -797,7 +797,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                                   {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                                 </SiteLink>
                               </h3>
@@ -806,7 +806,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -835,7 +835,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/ai-and-marketing-unlocking-customer-insights">
                                   {"AI and Marketing: Unlocking Customer Insights"}
                                 </SiteLink>
                               </h3>
@@ -844,7 +844,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -873,7 +873,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                                   {"Hidden Gems: Underrated Travel Destinations Around the World"}
                                 </SiteLink>
                               </h3>
@@ -882,7 +882,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -911,7 +911,7 @@ export default function Page() {
                                 </div>
                               </div>
                               <h3 className="post-title h5 xl:h4 m-0 m-0 max-w-500px mx-auto">
-                                <SiteLink className="text-none" href="/blog-details">
+                                <SiteLink className="text-none" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                   {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                                 </SiteLink>
                               </h3>
@@ -920,7 +920,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-4x3">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                             </div>
                           </article>
                         </div>
@@ -955,7 +955,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                             {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                           </SiteLink>
                         </h6>
@@ -969,7 +969,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                             {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                           </SiteLink>
                         </h6>
@@ -983,7 +983,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                             {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                           </SiteLink>
                         </h6>
@@ -997,7 +997,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                             {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                           </SiteLink>
                         </h6>
@@ -1011,7 +1011,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                             {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                           </SiteLink>
                         </h6>
@@ -1025,7 +1025,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                             {"Business Agility the Digital Age: Leveraging AI and Automation"}
                           </SiteLink>
                         </h6>
@@ -1039,7 +1039,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                             {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                           </SiteLink>
                         </h6>
@@ -1053,7 +1053,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                             {"AI and Marketing: Unlocking Customer Insights"}
                           </SiteLink>
                         </h6>
@@ -1067,7 +1067,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                             {"Hidden Gems: Underrated Travel Destinations Around the World"}
                           </SiteLink>
                         </h6>
@@ -1081,7 +1081,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h6 className="fs-6 lg:fs-7 xl:fs-6 fw-medium text-truncate-2">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                             {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                           </SiteLink>
                         </h6>
@@ -1114,7 +1114,7 @@ export default function Page() {
                           <span className="cstack has-video-icon position-absolute top-0 end-0 fs-6 w-40px h-40px text-white">
                             <i className="icon-narrow unicon-play-filled-alt"></i>
                           </span>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-1">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1142,7 +1142,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                               {"Business Agility the Digital Age: Leveraging AI and Automation"}
                             </SiteLink>
                           </h3>
@@ -1155,7 +1155,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                                   {"Tech Tools for your Time Management: Enhancing Productivity"}
                                 </SiteLink>
                               </h3>
@@ -1173,7 +1173,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -1185,7 +1185,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                   {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                                 </SiteLink>
                               </h3>
@@ -1203,7 +1203,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -1249,7 +1249,7 @@ export default function Page() {
                         <div className="position-cover bg-gradient-to-t from-black to-transparent opacity-90"></div>
                         <div className="post-header panel vstack justify-end items-start gap-1 sm:gap-2 p-2 sm:p-4 position-cover text-white">
                           <h3 className="post-title h5 sm:h4 xl:h3 m-0 max-w-600px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/gaming-in-the-age-of-ai-strategies-for-startups">
                               {"Gaming in the Age of AI: Strategies for Startups"}
                             </SiteLink>
                           </h3>
@@ -1278,7 +1278,7 @@ export default function Page() {
                             </div>
                           </div>
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/gaming-in-the-age-of-ai-strategies-for-startups" className="position-cover"></SiteLink>
                       </article>
                     </div>
                   </div>
@@ -1295,7 +1295,7 @@ export default function Page() {
                             <div className="position-cover bg-gradient-to-t from-black to-transparent opacity-90"></div>
                             <div className="post-header panel vstack justify-end items-start gap-1 p-2 position-cover text-white">
                               <h3 className="post-title h6 sm:h5 lg:h6 xl:h5 m-0 max-w-600px text-white text-truncate-2">
-                                <SiteLink className="text-none text-white" href="/blog-details">
+                                <SiteLink className="text-none text-white" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                   {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                                 </SiteLink>
                               </h3>
@@ -1324,7 +1324,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                           </article>
                         </div>
                         <div>
@@ -1337,7 +1337,7 @@ export default function Page() {
                             <div className="position-cover bg-gradient-to-t from-black to-transparent opacity-90"></div>
                             <div className="post-header panel vstack justify-end items-start gap-1 p-2 position-cover text-white">
                               <h3 className="post-title h6 sm:h5 lg:h6 xl:h5 m-0 max-w-600px text-white text-truncate-2">
-                                <SiteLink className="text-none text-white" href="/blog-details">
+                                <SiteLink className="text-none text-white" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                                   {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                                 </SiteLink>
                               </h3>
@@ -1366,7 +1366,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                           </article>
                         </div>
                         <div>
@@ -1379,7 +1379,7 @@ export default function Page() {
                             <div className="position-cover bg-gradient-to-t from-black to-transparent opacity-90"></div>
                             <div className="post-header panel vstack justify-end items-start gap-1 p-2 position-cover text-white">
                               <h3 className="post-title h6 sm:h5 lg:h6 xl:h5 m-0 max-w-600px text-white text-truncate-2">
-                                <SiteLink className="text-none text-white" href="/blog-details">
+                                <SiteLink className="text-none text-white" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                                   {"Tech Tools for your Time Management: Enhancing Productivity"}
                                 </SiteLink>
                               </h3>
@@ -1408,7 +1408,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                           </article>
                         </div>
                         <div>
@@ -1421,7 +1421,7 @@ export default function Page() {
                             <div className="position-cover bg-gradient-to-t from-black to-transparent opacity-90"></div>
                             <div className="post-header panel vstack justify-end items-start gap-1 p-2 position-cover text-white">
                               <h3 className="post-title h6 sm:h5 lg:h6 xl:h5 m-0 max-w-600px text-white text-truncate-2">
-                                <SiteLink className="text-none text-white" href="/blog-details">
+                                <SiteLink className="text-none text-white" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                   {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                                 </SiteLink>
                               </h3>
@@ -1450,7 +1450,7 @@ export default function Page() {
                                 </div>
                               </div>
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                           </article>
                         </div>
                       </div>
@@ -1487,7 +1487,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                   {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                                 </SiteLink>
                               </h3>
@@ -1505,7 +1505,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -1517,7 +1517,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                                   {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                                 </SiteLink>
                               </h3>
@@ -1535,7 +1535,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -1547,7 +1547,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                                   {"Tech Tools for your Time Management: Enhancing Productivity"}
                                 </SiteLink>
                               </h3>
@@ -1565,7 +1565,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -1605,7 +1605,7 @@ export default function Page() {
                           <div className="featured-image uc-transition-scale-up uc-transition-opaque bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-1">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1633,7 +1633,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 lg:h5 fw-semibold m-0 text-truncate-2 mb-1">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                               {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                             </SiteLink>
                           </h3>
@@ -1646,7 +1646,7 @@ export default function Page() {
                           <div className="featured-image uc-transition-scale-up uc-transition-opaque bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-1">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1674,7 +1674,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 lg:h5 fw-semibold m-0 text-truncate-2 mb-1">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                               {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                             </SiteLink>
                           </h3>
@@ -1712,7 +1712,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1740,7 +1740,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                             {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                           </SiteLink>
                         </h3>
@@ -1753,7 +1753,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                                 {"Tech Tools for your Time Management: Enhancing Productivity"}
                               </SiteLink>
                             </h3>
@@ -1771,7 +1771,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -1783,7 +1783,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                               </SiteLink>
                             </h3>
@@ -1801,7 +1801,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -1813,7 +1813,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/gaming-in-the-age-of-ai-strategies-for-startups">
                                 {"Gaming in the Age of AI: Strategies for Startups"}
                               </SiteLink>
                             </h3>
@@ -1831,7 +1831,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-15.jpg" alt="Gaming in the Age of AI: Strategies for Startups" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/gaming-in-the-age-of-ai-strategies-for-startups" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -1857,7 +1857,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1885,7 +1885,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                             {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                           </SiteLink>
                         </h3>
@@ -1898,7 +1898,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                 {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                               </SiteLink>
                             </h3>
@@ -1916,7 +1916,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -1928,7 +1928,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                                 {"Hidden Gems: Underrated Travel Destinations Around the World"}
                               </SiteLink>
                             </h3>
@@ -1946,7 +1946,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -1958,7 +1958,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                               </SiteLink>
                             </h3>
@@ -1976,7 +1976,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2002,7 +2002,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2030,7 +2030,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                             {"AI and Marketing: Unlocking Customer Insights"}
                           </SiteLink>
                         </h3>
@@ -2043,7 +2043,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                                 {"Hidden Gems: Underrated Travel Destinations Around the World"}
                               </SiteLink>
                             </h3>
@@ -2061,7 +2061,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2073,7 +2073,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                 {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                               </SiteLink>
                             </h3>
@@ -2091,7 +2091,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2103,7 +2103,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                 {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                               </SiteLink>
                             </h3>
@@ -2121,7 +2121,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2147,7 +2147,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2175,7 +2175,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                             {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                           </SiteLink>
                         </h3>
@@ -2188,7 +2188,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                                 {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                               </SiteLink>
                             </h3>
@@ -2206,7 +2206,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2218,7 +2218,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                                 {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                               </SiteLink>
                             </h3>
@@ -2236,7 +2236,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2248,7 +2248,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                                 {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                               </SiteLink>
                             </h3>
@@ -2266,7 +2266,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2292,7 +2292,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2320,7 +2320,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                             {"Hidden Gems: Underrated Travel Destinations Around the World"}
                           </SiteLink>
                         </h3>
@@ -2333,7 +2333,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                 {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                               </SiteLink>
                             </h3>
@@ -2351,7 +2351,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2363,7 +2363,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                 {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                               </SiteLink>
                             </h3>
@@ -2381,7 +2381,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2393,7 +2393,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                                 {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                               </SiteLink>
                             </h3>
@@ -2411,7 +2411,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover uc-transition-scale-up uc-transition-opaque image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2437,7 +2437,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2465,7 +2465,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                             {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                           </SiteLink>
                         </h3>
@@ -2478,7 +2478,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2506,7 +2506,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                             {"Business Agility the Digital Age: Leveraging AI and Automation"}
                           </SiteLink>
                         </h3>
@@ -2544,7 +2544,7 @@ export default function Page() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-1">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2572,7 +2572,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                               {"Business Agility the Digital Age: Leveraging AI and Automation"}
                             </SiteLink>
                           </h3>
@@ -2587,7 +2587,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                   {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                                 </SiteLink>
                               </h3>
@@ -2605,7 +2605,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -2617,7 +2617,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                                   {"Business Agility the Digital Age: Leveraging AI and Automation"}
                                 </SiteLink>
                               </h3>
@@ -2635,7 +2635,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -2647,7 +2647,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                                   {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                                 </SiteLink>
                               </h3>
@@ -2665,7 +2665,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -2677,7 +2677,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                                   {"AI and Marketing: Unlocking Customer Insights"}
                                 </SiteLink>
                               </h3>
@@ -2695,7 +2695,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -2722,7 +2722,7 @@ export default function Page() {
                         <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                           <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                       </div>
                       <div className="post-header panel vstack gap-1">
                         <div className="post-meta panel hstack justify-start gap-1 fs-7 fw-medium text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -2750,7 +2750,7 @@ export default function Page() {
                           </div>
                         </div>
                         <h3 className="post-title h6 xl:h5 m-0 text-truncate-2 mb-1">
-                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                          <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                             {"Tech Tools for your Time Management: Enhancing Productivity"}
                           </SiteLink>
                         </h3>
@@ -2763,7 +2763,7 @@ export default function Page() {
                         <div>
                           <div className="post-header panel vstack justify-between gap-1">
                             <h3 className="post-title h6 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                               </SiteLink>
                             </h3>
@@ -2781,7 +2781,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                               <img className=" uc-transition-scale-up uc-transition-opaque media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-two/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                           </div>
                         </div>
                       </div>
@@ -2875,7 +2875,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/01.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-family-code-is-not-a-circus-for-spectacle" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -2884,7 +2884,7 @@ export default function Page() {
                                 {"David Peterson says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/the-family-code-is-not-a-circus-for-spectacle">
                                   {"The family code is not a circus for spectacle..!"}
                                 </SiteLink>
                               </h3>
@@ -2901,7 +2901,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/02.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/benkiranes-statements-incite-sedition-and-an-explicit-threat-against-reforming-the-family-code" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -2910,7 +2910,7 @@ export default function Page() {
                                 {"Peter Sawyer says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/benkiranes-statements-incite-sedition-and-an-explicit-threat-against-reforming-the-family-code">
                                   {"Benkirane’s statements incite “sedition” and an explicit threat against reforming the Family Code"}
                                 </SiteLink>
                               </h3>
@@ -2927,7 +2927,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/03.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-matter-of-breaking-the-fast-in-ramadan-is-the-responsibility-of-the-doctor-not-the-jurist" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -2936,7 +2936,7 @@ export default function Page() {
                                 {"Sarah Eddrissi says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/the-matter-of-breaking-the-fast-in-ramadan-is-the-responsibility-of-the-doctor-not-the-jurist">
                                   {"The matter of breaking the fast in Ramadan is the responsibility of the doctor, not the “jurist”"}
                                 </SiteLink>
                               </h3>
@@ -2953,7 +2953,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/04.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/france-turkish-a-step-towards-the-future" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -2962,7 +2962,7 @@ export default function Page() {
                                 {"Anna Luis says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/france-turkish-a-step-towards-the-future">
                                   {"France - turkish...a step towards the future!"}
                                 </SiteLink>
                               </h3>
@@ -2979,7 +2979,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/05.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/in-response-to-francisco-carreon-given-the-fallacies-and-allegations" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -2988,7 +2988,7 @@ export default function Page() {
                                 {"Jason Blake says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/in-response-to-francisco-carreon-given-the-fallacies-and-allegations">
                                   {"In response to Francisco Carreon given the fallacies and allegations"}
                                 </SiteLink>
                               </h3>
@@ -3005,7 +3005,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/06.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ramadan-is-the-responsibility-of-the-doctor-not-the-jurist" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -3014,7 +3014,7 @@ export default function Page() {
                                 {"Henry Djokoviç says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/ramadan-is-the-responsibility-of-the-doctor-not-the-jurist">
                                   {"Ramadan is the responsibility of the doctor, not the “jurist”"}
                                 </SiteLink>
                               </h3>
@@ -3031,7 +3031,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/07.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/france-england-are-we-heading-towards-a-new-page" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -3040,7 +3040,7 @@ export default function Page() {
                                 {"Rico Santos says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/france-england-are-we-heading-towards-a-new-page">
                                   {"France - england: Are we heading towards a new page?"}
                                 </SiteLink>
                               </h3>
@@ -3057,7 +3057,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/08.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/media-website-in-the-moroccan-constitution" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -3066,7 +3066,7 @@ export default function Page() {
                                 {"Nisi Nyung says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/media-website-in-the-moroccan-constitution">
                                   {"Media website in the Moroccan constitution"}
                                 </SiteLink>
                               </h3>
@@ -3083,7 +3083,7 @@ export default function Page() {
                               <figure className="featured-image m-0 ratio ratio-1x1 rounded-circle uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                                 <img className=" uc-transition-scale-up uc-transition-opaque media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/avatars/09.png" alt="image" data-uc-img="loading: lazy" />
                               </figure>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/usa-and-the-fight-against-terrorism-a-realistic-strategy-based-on-proactiveness-and-cooperation" className="position-cover"></SiteLink>
                             </div>
                           </div>
                           <div>
@@ -3092,7 +3092,7 @@ export default function Page() {
                                 {"Roman Harry says:"}
                               </span>
                               <h3 className="post-title h6 m-0 text-truncate-3 hover:text-primary">
-                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="fs-6 xl:fs-5 text-none hover:text-primary duration-150" href="/blog/usa-and-the-fight-against-terrorism-a-realistic-strategy-based-on-proactiveness-and-cooperation">
                                   {"USA and the fight against terrorism: a realistic strategy based on proactiveness and cooperation"}
                                 </SiteLink>
                               </h3>

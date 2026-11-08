@@ -1,0 +1,541 @@
+[
+  {
+    "route": "/demo-eight/blog-details-2/[slug]",
+    "demo": "demo-eight",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eight/blog-details-3/[slug]",
+    "demo": "demo-eight",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eight/blog/[slug]",
+    "demo": "demo-eight",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eight/blog-details/[slug]",
+    "demo": "demo-eight",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eight/shop-product-detail-2/[slug]",
+    "demo": "demo-eight",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-eight/shop/[slug]",
+    "demo": "demo-eight",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-eight/shop-product-detail/[slug]",
+    "demo": "demo-eight",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-eleven/blog-details-2/[slug]",
+    "demo": "demo-eleven",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eleven/blog-details-3/[slug]",
+    "demo": "demo-eleven",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eleven/blog/[slug]",
+    "demo": "demo-eleven",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eleven/blog-details/[slug]",
+    "demo": "demo-eleven",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-eleven/shop-product-detail-2/[slug]",
+    "demo": "demo-eleven",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-eleven/shop/[slug]",
+    "demo": "demo-eleven",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-eleven/shop-product-detail/[slug]",
+    "demo": "demo-eleven",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-five/blog-details-2/[slug]",
+    "demo": "demo-five",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-five/blog-details-3/[slug]",
+    "demo": "demo-five",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-five/blog/[slug]",
+    "demo": "demo-five",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-five/blog-details/[slug]",
+    "demo": "demo-five",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-five/shop-product-detail-2/[slug]",
+    "demo": "demo-five",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-five/shop/[slug]",
+    "demo": "demo-five",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-five/shop-product-detail/[slug]",
+    "demo": "demo-five",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-four/blog-details-2/[slug]",
+    "demo": "demo-four",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-four/blog-details-3/[slug]",
+    "demo": "demo-four",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-four/blog/[slug]",
+    "demo": "demo-four",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-four/blog-details/[slug]",
+    "demo": "demo-four",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-four/shop-product-detail-2/[slug]",
+    "demo": "demo-four",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-four/shop/[slug]",
+    "demo": "demo-four",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-four/shop-product-detail/[slug]",
+    "demo": "demo-four",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-nine/blog-details-2/[slug]",
+    "demo": "demo-nine",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-nine/blog-details-3/[slug]",
+    "demo": "demo-nine",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-nine/blog/[slug]",
+    "demo": "demo-nine",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-nine/blog-details/[slug]",
+    "demo": "demo-nine",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-nine/shop-product-detail-2/[slug]",
+    "demo": "demo-nine",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-nine/shop/[slug]",
+    "demo": "demo-nine",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-nine/shop-product-detail/[slug]",
+    "demo": "demo-nine",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-seven/blog-details-2/[slug]",
+    "demo": "demo-seven",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-seven/blog-details-3/[slug]",
+    "demo": "demo-seven",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-seven/blog/[slug]",
+    "demo": "demo-seven",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-seven/blog-details/[slug]",
+    "demo": "demo-seven",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-seven/shop-product-detail-2/[slug]",
+    "demo": "demo-seven",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-seven/shop/[slug]",
+    "demo": "demo-seven",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-seven/shop-product-detail/[slug]",
+    "demo": "demo-seven",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-six/blog-details-2/[slug]",
+    "demo": "demo-six",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-six/blog-details-3/[slug]",
+    "demo": "demo-six",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-six/blog/[slug]",
+    "demo": "demo-six",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-six/blog-details/[slug]",
+    "demo": "demo-six",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-six/shop-product-detail-2/[slug]",
+    "demo": "demo-six",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-six/shop/[slug]",
+    "demo": "demo-six",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-six/shop-product-detail/[slug]",
+    "demo": "demo-six",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-ten/blog-details-2/[slug]",
+    "demo": "demo-ten",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-ten/blog-details-3/[slug]",
+    "demo": "demo-ten",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-ten/blog/[slug]",
+    "demo": "demo-ten",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-ten/blog-details/[slug]",
+    "demo": "demo-ten",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-ten/shop-product-detail-2/[slug]",
+    "demo": "demo-ten",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-ten/shop/[slug]",
+    "demo": "demo-ten",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-ten/shop-product-detail/[slug]",
+    "demo": "demo-ten",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-three/blog-details-2/[slug]",
+    "demo": "demo-three",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-three/blog-details-3/[slug]",
+    "demo": "demo-three",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-three/blog/[slug]",
+    "demo": "demo-three",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-three/blog-details/[slug]",
+    "demo": "demo-three",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-three/shop-product-detail-2/[slug]",
+    "demo": "demo-three",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-three/shop/[slug]",
+    "demo": "demo-three",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-three/shop-product-detail/[slug]",
+    "demo": "demo-three",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-two/blog-details-2/[slug]",
+    "demo": "demo-two",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-two/blog-details-3/[slug]",
+    "demo": "demo-two",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-two/blog/[slug]",
+    "demo": "demo-two",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-two/blog-details/[slug]",
+    "demo": "demo-two",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/demo-two/shop-product-detail-2/[slug]",
+    "demo": "demo-two",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-two/shop/[slug]",
+    "demo": "demo-two",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/demo-two/shop-product-detail/[slug]",
+    "demo": "demo-two",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/main/blog-details-2/[slug]",
+    "demo": "main",
+    "kind": "blog",
+    "variant": "blog-details-2",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/main/blog-details-3/[slug]",
+    "demo": "main",
+    "kind": "blog",
+    "variant": "blog-details-3",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/main/blog/[slug]",
+    "demo": "main",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/main/blog-details/[slug]",
+    "demo": "main",
+    "kind": "blog",
+    "variant": "blog-details",
+    "defaultSlug": "the-rise-of-gourmet-street-food-trends-and-top-picks"
+  },
+  {
+    "route": "/main/shop-product-detail-2/[slug]",
+    "demo": "main",
+    "kind": "product",
+    "variant": "shop-product-detail-2",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/main/shop/[slug]",
+    "demo": "main",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  },
+  {
+    "route": "/main/shop-product-detail/[slug]",
+    "demo": "main",
+    "kind": "product",
+    "variant": "shop-product-detail",
+    "defaultSlug": "disney-toys"
+  }
+]

@@ -76,8 +76,8 @@ test("menus, dark mode, sliders and client navigation remain interactive", async
   await expect(page.locator("#uc-menu-panel")).not.toHaveClass(/uc-open/);
 
   await page.setViewportSize({ width: 1440, height: 1000 });
-  await page.locator('#wrapper a[href="/demo-three/blog-details"]').first().click();
-  await expect(page).toHaveURL(/\/demo-three\/blog-details$/);
+  await page.locator('#wrapper .post-title a[href^="/demo-three/blog/"]').first().click();
+  await expect(page).toHaveURL(/\/demo-three\/blog\/[^/]+$/);
   await expect(page.locator("#wrapper h1").first()).toBeVisible();
   await page.locator(".backtotop-wrap [data-darkmode-toggle] label").click();
   await expect(page.locator("html")).toHaveClass(/uc-dark/);

@@ -47,8 +47,8 @@ test("autoplay continues and sliders reinitialize after client navigation", asyn
   const index = () => slider.evaluate(el => (el as HTMLElement & { swiper: { realIndex: number } }).swiper.realIndex);
   const before = await index();
   await expect.poll(index, { timeout: 8000 }).not.toBe(before);
-  await page.locator('#wrapper a[href="/demo-three/blog-details"]').first().click();
-  await expect(page).toHaveURL(/\/blog-details$/);
+  await page.locator('#wrapper .post-title a[href^="/demo-three/blog/"]').first().click();
+  await expect(page).toHaveURL(/\/demo-three\/blog\/[^/]+$/);
   await page.goBack();
   await expect.poll(() => slider.evaluate(el => !!(el as HTMLElement & { swiper?: { destroyed?: boolean } }).swiper && !(el as HTMLElement & { swiper: { destroyed?: boolean } }).swiper.destroyed)).toBe(true);
   expect(errors).toEqual([]);

@@ -1,6 +1,7 @@
 import { SiteLink } from "@/components/DemoContext";
+import type { DetailRecord } from "@/data/details";
 
-export default function BlogDetailsContent1() {
+export default function BlogDetailsContent1({ detail }: { detail: DetailRecord }) {
   return (
     <div id="wrapper" className="wrap overflow-hidden-x">
   <div className="breadcrumbs panel z-1 py-2 bg-gray-25 dark:bg-gray-100 dark:bg-opacity-5 dark:text-white">
@@ -24,7 +25,7 @@ export default function BlogDetailsContent1() {
         </li>
         <li>
           <SiteLink href="/blog-category">
-            {"Strategy"}
+            {detail.category || "Strategy"}
           </SiteLink>
         </li>
         <li>
@@ -32,7 +33,7 @@ export default function BlogDetailsContent1() {
         </li>
         <li>
           <span className="opacity-50">
-            {"The Rise of Gourmet Street Food: Trends and Top Picks"}
+            {detail.title}
           </span>
         </li>
       </ul>
@@ -44,7 +45,7 @@ export default function BlogDetailsContent1() {
         <div className="panel vstack gap-4 md:gap-6 xl:gap-8 text-center">
           <div className="panel vstack items-center max-w-400px sm:max-w-500px xl:max-w-md mx-auto gap-2 md:gap-3">
             <h1 className="h4 sm:h2 lg:h1 xl:display-6">
-              {"The Rise of Gourmet Street Food: Trends and Top Picks"}
+              {detail.title}
             </h1>
             <ul className="post-share-icons nav-x gap-1 dark:text-white">
               <li>
@@ -81,7 +82,7 @@ export default function BlogDetailsContent1() {
           </div>
           <figure className="featured-image m-0">
             <figure className="featured-image m-0 ratio ratio-2x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
-              <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/post-full.jpg" alt="The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
+              <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src={detail.image} data-src={detail.image} alt={detail.title} data-uc-img="loading: lazy" />
             </figure>
           </figure>
         </div>
@@ -281,7 +282,7 @@ export default function BlogDetailsContent1() {
             <div className="panel hstack justify-center w-100px h-100px">
               <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
-                <SiteLink href="/blog-details" className="position-cover" data-caption="Tech Innovations Reshaping the Retail Landscape: AI Payments"></SiteLink>
+                <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover" data-caption="Tech Innovations Reshaping the Retail Landscape: AI Payments"></SiteLink>
               </figure>
             </div>
             <div className="panel vstack justify-center px-2 gap-1 w-1/3">
@@ -292,7 +293,7 @@ export default function BlogDetailsContent1() {
                 {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
               </h6>
             </div>
-            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+            <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
           </div>
           <div className="new-post panel hstack w-100 sm:w-1/2">
             <div className="panel vstack justify-center px-2 gap-1 w-1/3 text-end">
@@ -306,10 +307,10 @@ export default function BlogDetailsContent1() {
             <div className="panel hstack justify-center w-100px h-100px">
               <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                 <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
-                <SiteLink href="/blog-details" className="position-cover" data-caption="The Rise of AI-Powered Personal Assistants: How They Manage"></SiteLink>
+                <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover" data-caption="The Rise of AI-Powered Personal Assistants: How They Manage"></SiteLink>
               </figure>
             </div>
-            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+            <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
           </div>
         </div>
         <div className="post-related panel border-top pt-2 mt-8 xl:mt-9">
@@ -321,11 +322,11 @@ export default function BlogDetailsContent1() {
               <article className="post type-post panel vstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-4x3 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
-                  <SiteLink href="/blog-details" className="position-cover" data-caption="The Art of Baking: From Classic Bread to Artisan Pastries"></SiteLink>
+                  <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover" data-caption="The Art of Baking: From Classic Bread to Artisan Pastries"></SiteLink>
                 </figure>
                 <div className="post-header panel vstack gap-1">
                   <h5 className="h6 md:h5 m-0">
-                    <SiteLink className="text-none" href="/blog-details">
+                    <SiteLink className="text-none" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                       {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                     </SiteLink>
                   </h5>
@@ -341,11 +342,11 @@ export default function BlogDetailsContent1() {
               <article className="post type-post panel vstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-4x3 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
-                  <SiteLink href="/blog-details" className="position-cover" data-caption="AI and Marketing: Unlocking Customer Insights"></SiteLink>
+                  <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover" data-caption="AI and Marketing: Unlocking Customer Insights"></SiteLink>
                 </figure>
                 <div className="post-header panel vstack gap-1">
                   <h5 className="h6 md:h5 m-0">
-                    <SiteLink className="text-none" href="/blog-details">
+                    <SiteLink className="text-none" href="/blog/ai-and-marketing-unlocking-customer-insights">
                       {"AI and Marketing: Unlocking Customer Insights"}
                     </SiteLink>
                   </h5>
@@ -361,11 +362,11 @@ export default function BlogDetailsContent1() {
               <article className="post type-post panel vstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-4x3 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
-                  <SiteLink href="/blog-details" className="position-cover" data-caption="Hidden Gems: Underrated Travel Destinations Around the World"></SiteLink>
+                  <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover" data-caption="Hidden Gems: Underrated Travel Destinations Around the World"></SiteLink>
                 </figure>
                 <div className="post-header panel vstack gap-1">
                   <h5 className="h6 md:h5 m-0">
-                    <SiteLink className="text-none" href="/blog-details">
+                    <SiteLink className="text-none" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                       {"Hidden Gems: Underrated Travel Destinations Around the World"}
                     </SiteLink>
                   </h5>
@@ -381,11 +382,11 @@ export default function BlogDetailsContent1() {
               <article className="post type-post panel vstack gap-2">
                 <figure className="featured-image m-0 ratio ratio-4x3 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                   <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-seven/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
-                  <SiteLink href="/blog-details" className="position-cover" data-caption="Eco-Tourism: Traveling Responsibly and Sustainably"></SiteLink>
+                  <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover" data-caption="Eco-Tourism: Traveling Responsibly and Sustainably"></SiteLink>
                 </figure>
                 <div className="post-header panel vstack gap-1">
                   <h5 className="h6 md:h5 m-0">
-                    <SiteLink className="text-none" href="/blog-details">
+                    <SiteLink className="text-none" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                       {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                     </SiteLink>
                   </h5>

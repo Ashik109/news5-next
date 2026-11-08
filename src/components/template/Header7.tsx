@@ -138,7 +138,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-19.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -161,7 +161,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                     {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                                   </SiteLink>
                                 </h3>
@@ -174,7 +174,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-20.jpg" alt="Smart Homes, Smarter Living: Exploring IoT and AI" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/smart-homes-smarter-living-exploring-iot-and-ai" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -197,7 +197,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/smart-homes-smarter-living-exploring-iot-and-ai">
                                     {"Smart Homes, Smarter Living: Exploring IoT and AI"}
                                   </SiteLink>
                                 </h3>
@@ -210,7 +210,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-21.jpg" alt="How Businesses Are Adapting to E-Commerce and AI Integration" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/how-businesses-are-adapting-to-e-commerce-and-ai-integration" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -233,7 +233,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/how-businesses-are-adapting-to-e-commerce-and-ai-integration">
                                     {"How Businesses Are Adapting to E-Commerce and AI Integration"}
                                   </SiteLink>
                                 </h3>
@@ -246,7 +246,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-22.jpg" alt="Technology: Wearables, AR, and AI in the Apparel Industry" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/technology-wearables-ar-and-ai-in-the-apparel-industry" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -269,7 +269,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/technology-wearables-ar-and-ai-in-the-apparel-industry">
                                     {"Technology: Wearables, AR, and AI in the Apparel Industry"}
                                   </SiteLink>
                                 </h3>
@@ -284,7 +284,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -307,7 +307,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                                     {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                                   </SiteLink>
                                 </h3>
@@ -320,7 +320,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -343,7 +343,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                     {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                                   </SiteLink>
                                 </h3>
@@ -356,7 +356,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -379,7 +379,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                     {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                                   </SiteLink>
                                 </h3>
@@ -392,7 +392,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -415,7 +415,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                                     {"Tech Tools for your Time Management: Enhancing Productivity"}
                                   </SiteLink>
                                 </h3>
@@ -430,7 +430,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -453,7 +453,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                                     {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                                   </SiteLink>
                                 </h3>
@@ -466,7 +466,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -489,7 +489,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                                     {"Business Agility the Digital Age: Leveraging AI and Automation"}
                                   </SiteLink>
                                 </h3>
@@ -502,7 +502,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -525,7 +525,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                                     {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                                   </SiteLink>
                                 </h3>
@@ -538,7 +538,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-16.jpg" alt="Top Independent Contractors to Invest in Best of Startups" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/top-independent-contractors-to-invest-in-best-of-startups" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -561,7 +561,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/top-independent-contractors-to-invest-in-best-of-startups">
                                     {"Top Independent Contractors to Invest in Best of Startups"}
                                   </SiteLink>
                                 </h3>
@@ -576,7 +576,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -599,7 +599,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                                     {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                                   </SiteLink>
                                 </h3>
@@ -612,7 +612,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -635,7 +635,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                                     {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                                   </SiteLink>
                                 </h3>
@@ -648,7 +648,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -671,7 +671,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                                     {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                                   </SiteLink>
                                 </h3>
@@ -684,7 +684,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -707,7 +707,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                                     {"Hidden Gems: Underrated Travel Destinations Around the World"}
                                   </SiteLink>
                                 </h3>
@@ -722,7 +722,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -745,7 +745,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                                     {"AI and Marketing: Unlocking Customer Insights"}
                                   </SiteLink>
                                 </h3>
@@ -758,7 +758,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -781,7 +781,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                     {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                                   </SiteLink>
                                 </h3>
@@ -794,7 +794,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-15.jpg" alt="Gaming in the Age of AI: Strategies for Startups" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/gaming-in-the-age-of-ai-strategies-for-startups" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -817,7 +817,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/gaming-in-the-age-of-ai-strategies-for-startups">
                                     {"Gaming in the Age of AI: Strategies for Startups"}
                                   </SiteLink>
                                 </h3>
@@ -830,7 +830,7 @@ export default function Header7() {
                                 <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                                   <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-18.jpg" alt="Virtual Reality and Mental Health: Exploring the Therapeutic" data-uc-img="loading: lazy" />
                                 </div>
-                                <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                                <SiteLink href="/blog/virtual-reality-and-mental-health-exploring-the-therapeutic" className="position-cover"></SiteLink>
                               </div>
                               <div className="post-header panel vstack gap-narrow">
                                 <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -853,7 +853,7 @@ export default function Header7() {
                                   </div>
                                 </div>
                                 <h3 className="post-title h6 m-0 text-truncate-2">
-                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                  <SiteLink className="text-none hover:text-primary duration-150" href="/blog/virtual-reality-and-mental-health-exploring-the-therapeutic">
                                     {"Virtual Reality and Mental Health: Exploring the Therapeutic"}
                                   </SiteLink>
                                 </h3>
@@ -879,7 +879,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -902,7 +902,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                               {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                             </SiteLink>
                           </h3>
@@ -915,7 +915,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -938,7 +938,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                               {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                             </SiteLink>
                           </h3>
@@ -951,7 +951,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -974,7 +974,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                               {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                             </SiteLink>
                           </h3>
@@ -987,7 +987,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-13.jpg" alt="Tech Tools for your Time Management: Enhancing Productivity" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/tech-tools-for-your-time-management-enhancing-productivity" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1010,7 +1010,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-tools-for-your-time-management-enhancing-productivity">
                               {"Tech Tools for your Time Management: Enhancing Productivity"}
                             </SiteLink>
                           </h3>
@@ -1023,7 +1023,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-17.jpg" alt="Potential of Immersive Technologies help your Business Grow" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/potential-of-immersive-technologies-help-your-business-grow" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1046,7 +1046,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/potential-of-immersive-technologies-help-your-business-grow">
                               {"Potential of Immersive Technologies help your Business Grow"}
                             </SiteLink>
                           </h3>
@@ -1069,7 +1069,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1092,7 +1092,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                               {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                             </SiteLink>
                           </h3>
@@ -1105,7 +1105,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1128,7 +1128,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                               {"Business Agility the Digital Age: Leveraging AI and Automation"}
                             </SiteLink>
                           </h3>
@@ -1141,7 +1141,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-14.jpg" alt="A Guide to The Rise of Gourmet Street Food: Trends and Top Picks" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1164,7 +1164,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/a-guide-to-the-rise-of-gourmet-street-food-trends-and-top-picks">
                               {"A Guide to The Rise of Gourmet Street Food: Trends and Top Picks"}
                             </SiteLink>
                           </h3>
@@ -1177,7 +1177,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-16.jpg" alt="Top Independent Contractors to Invest in Best of Startups" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/top-independent-contractors-to-invest-in-best-of-startups" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1200,7 +1200,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/top-independent-contractors-to-invest-in-best-of-startups">
                               {"Top Independent Contractors to Invest in Best of Startups"}
                             </SiteLink>
                           </h3>
@@ -1213,7 +1213,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-19.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1236,7 +1236,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                               {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                             </SiteLink>
                           </h3>
@@ -1259,7 +1259,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1282,7 +1282,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                               {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                             </SiteLink>
                           </h3>
@@ -1295,7 +1295,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1318,7 +1318,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                               {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                             </SiteLink>
                           </h3>
@@ -1331,7 +1331,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1354,7 +1354,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                               {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                             </SiteLink>
                           </h3>
@@ -1367,7 +1367,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1390,7 +1390,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                               {"Hidden Gems: Underrated Travel Destinations Around the World"}
                             </SiteLink>
                           </h3>
@@ -1403,7 +1403,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1426,7 +1426,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                               {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                             </SiteLink>
                           </h3>
@@ -1449,7 +1449,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1472,7 +1472,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                               {"AI and Marketing: Unlocking Customer Insights"}
                             </SiteLink>
                           </h3>
@@ -1485,7 +1485,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1508,7 +1508,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                               {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                             </SiteLink>
                           </h3>
@@ -1521,7 +1521,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-15.jpg" alt="Gaming in the Age of AI: Strategies for Startups" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/gaming-in-the-age-of-ai-strategies-for-startups" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1544,7 +1544,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/gaming-in-the-age-of-ai-strategies-for-startups">
                               {"Gaming in the Age of AI: Strategies for Startups"}
                             </SiteLink>
                           </h3>
@@ -1557,7 +1557,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-18.jpg" alt="Virtual Reality and Mental Health: Exploring the Therapeutic" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/virtual-reality-and-mental-health-exploring-the-therapeutic" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1580,7 +1580,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/virtual-reality-and-mental-health-exploring-the-therapeutic">
                               {"Virtual Reality and Mental Health: Exploring the Therapeutic"}
                             </SiteLink>
                           </h3>
@@ -1593,7 +1593,7 @@ export default function Header7() {
                           <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9">
                             <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-six/posts/img-20.jpg" alt="Smart Homes, Smarter Living: Exploring IoT and AI" data-uc-img="loading: lazy" />
                           </div>
-                          <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                          <SiteLink href="/blog/smart-homes-smarter-living-exploring-iot-and-ai" className="position-cover"></SiteLink>
                         </div>
                         <div className="post-header panel vstack gap-narrow">
                           <div className="post-meta panel hstack justify-start gap-1 fs-7 ft-tertiary fw-medium text-uppercase text-gray-900 dark:text-white text-opacity-60 d-none md:d-flex z-1">
@@ -1616,7 +1616,7 @@ export default function Header7() {
                             </div>
                           </div>
                           <h3 className="post-title h6 m-0 text-truncate-2">
-                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                            <SiteLink className="text-none hover:text-primary duration-150" href="/blog/smart-homes-smarter-living-exploring-iot-and-ai">
                               {"Smart Homes, Smarter Living: Exploring IoT and AI"}
                             </SiteLink>
                           </h3>
@@ -1732,17 +1732,17 @@ export default function Header7() {
                               </SiteLink>
                             </li>
                             <li>
-                              <SiteLink href="/blog-details">
+                              <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"Blog single"}
                               </SiteLink>
                             </li>
                             <li>
-                              <SiteLink href="/blog-details-2">
+                              <SiteLink href="/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"Blog single v2"}
                               </SiteLink>
                             </li>
                             <li>
-                              <SiteLink href="/blog-details-3">
+                              <SiteLink href="/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks">
                                 {"Blog single v3"}
                               </SiteLink>
                             </li>
@@ -1769,12 +1769,12 @@ export default function Header7() {
                               </SiteLink>
                             </li>
                             <li>
-                              <SiteLink href="/shop-product-detail">
+                              <SiteLink href="/shop/disney-toys">
                                 {"Product detail"}
                               </SiteLink>
                             </li>
                             <li>
-                              <SiteLink href="/shop-product-detail-2">
+                              <SiteLink href="/shop-product-detail-2/disney-toys">
                                 {"Product detail v2"}
                               </SiteLink>
                             </li>

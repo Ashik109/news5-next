@@ -1,6 +1,7 @@
 import { SiteLink } from "@/components/DemoContext";
+import type { DetailRecord } from "@/data/details";
 
-export default function ShopProductDetail2Content1() {
+export default function ShopProductDetail2Content1({ detail }: { detail: DetailRecord }) {
   return (
     <div id="wrapper" className="wrap overflow-hidden-x">
   <div className="breadcrumbs panel z-1 py-2 bg-gray-25 dark:bg-gray-100 dark:bg-opacity-5 dark:text-white">
@@ -32,7 +33,7 @@ export default function ShopProductDetail2Content1() {
         </li>
         <li>
           <span className="opacity-50">
-            {"Disney Toys"}
+            {detail.title}
           </span>
         </li>
       </ul>
@@ -44,36 +45,24 @@ export default function ShopProductDetail2Content1() {
         <div className="row child-cols-12 lg:child-cols-6 gy-4 gx-4 md:gx-6 xl:gx-8">
           <div>
             <div className="product-gallery panel vstack gap-2" data-uc-lightbox="">
-              <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
-                <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-08.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                <a href="/assets/images/common/products/img-08.jpg" className="position-cover" data-caption="Disney Toys"></a>
-              </figure>
-              <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
-                <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-17.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                <a href="/assets/images/common/products/img-17.jpg" className="position-cover" data-caption="Disney Toys"></a>
-              </figure>
-              <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
-                <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-18.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                <a href="/assets/images/common/products/img-18.jpg" className="position-cover" data-caption="Disney Toys"></a>
-              </figure>
-              <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
-                <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-19.jpg" alt="Disney Toys" data-uc-img="loading: lazy" />
-                <a href="/assets/images/common/products/img-19.jpg" className="position-cover" data-caption="Disney Toys"></a>
-              </figure>
+              {detail.gallery.slice(0, 4).map((image, index) => (<figure key={index} className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
+                <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src={image} data-src={image} alt={detail.title} data-uc-img="loading: lazy" />
+                <a href={image} className="position-cover" data-caption={detail.title}></a>
+              </figure>))}
             </div>
           </div>
           <div>
             <div className="product-details panel vstack justify-center items-center gap-1 xl:gap-2 max-w-500px mx-auto text-center" data-uc-sticky="bottom: true; offset: 48;">
               <h1 className="product-title h3 xl:h1 m-0">
-                {"Disney Toys"}
+                {detail.title}
               </h1>
               <div className="vstack justify-center items-center gap-2">
                 <div className="product-price hstack justify-center items-center gap-1 fs-5 xl:fs-4">
                   <span className="price-old text-line-through opacity-40">
-                    {"$89.00"}
+                    {detail.oldPrice}
                   </span>
                   <span className="price">
-                    {"$24.00"}
+                    {detail.price}
                   </span>
                 </div>
                 <div className="product-rating hstack justify-center items-center gap-1">
@@ -549,7 +538,7 @@ export default function ShopProductDetail2Content1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-01.jpg" alt="Elegant Watch" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Elegant Watch"></SiteLink>
+                        <SiteLink href="/shop/elegant-watch" className="position-cover" data-caption="Elegant Watch"></SiteLink>
                       </figure>
                       <span className="position-absolute top-0 start-0 m-1 fs-7 ft-secondary lh-sm h-16px px-narrow rounded bg-yellow-400 text-dark">
                         {"51%"}
@@ -557,7 +546,7 @@ export default function ShopProductDetail2Content1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 lg:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/elegant-watch">
                           {"Elegant Watch"}
                         </SiteLink>
                       </h5>
@@ -596,12 +585,12 @@ export default function ShopProductDetail2Content1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-02.jpg" alt="Hemp Seed" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Hemp Seed"></SiteLink>
+                        <SiteLink href="/shop/hemp-seed" className="position-cover" data-caption="Hemp Seed"></SiteLink>
                       </figure>
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 lg:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/hemp-seed">
                           {"Hemp Seed"}
                         </SiteLink>
                       </h5>
@@ -637,7 +626,7 @@ export default function ShopProductDetail2Content1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-03.jpg" alt="White Classic Watch" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="White Classic Watch"></SiteLink>
+                        <SiteLink href="/shop/white-classic-watch" className="position-cover" data-caption="White Classic Watch"></SiteLink>
                       </figure>
                       <span className="position-absolute top-0 start-0 m-1 fs-7 ft-secondary lh-sm h-16px px-narrow rounded bg-yellow-400 text-dark">
                         {"67%"}
@@ -645,7 +634,7 @@ export default function ShopProductDetail2Content1() {
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 lg:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/white-classic-watch">
                           {"White Classic Watch"}
                         </SiteLink>
                       </h5>
@@ -684,12 +673,12 @@ export default function ShopProductDetail2Content1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-04.jpg" alt="Stylish Starbucks" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
+                        <SiteLink href="/shop/stylish-starbucks" className="position-cover" data-caption="Stylish Starbucks"></SiteLink>
                       </figure>
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 lg:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/stylish-starbucks">
                           {"Stylish Starbucks"}
                         </SiteLink>
                       </h5>
@@ -725,12 +714,12 @@ export default function ShopProductDetail2Content1() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/common/products/img-05.jpg" alt="Black AirTag" data-uc-img="loading: lazy" />
-                        <SiteLink href="/shop-product-detail" className="position-cover" data-caption="Black AirTag"></SiteLink>
+                        <SiteLink href="/shop/black-airtag" className="position-cover" data-caption="Black AirTag"></SiteLink>
                       </figure>
                     </div>
                     <div className="content vstack items-center gap-1 fs-6 text-center xl:mt-1">
                       <h5 className="h6 lg:h5 m-0">
-                        <SiteLink className="text-none" href="/shop-product-detail">
+                        <SiteLink className="text-none" href="/shop/black-airtag">
                           {"Black AirTag"}
                         </SiteLink>
                       </h5>

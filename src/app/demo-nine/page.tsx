@@ -187,7 +187,7 @@ export default function Page() {
                             </SiteLink>
                           </div>
                           <h3 className="post-title h4 xl:h1 m-0 max-w-700px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/ai-and-marketing-unlocking-customer-insights">
                               {"AI and Marketing: Unlocking Customer Insights"}
                             </SiteLink>
                           </h3>
@@ -242,7 +242,7 @@ export default function Page() {
                             </SiteLink>
                           </div>
                           <h3 className="post-title h4 xl:h1 m-0 max-w-700px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                               {"Hidden Gems: Underrated Travel Destinations Around the World"}
                             </SiteLink>
                           </h3>
@@ -297,7 +297,7 @@ export default function Page() {
                             </SiteLink>
                           </div>
                           <h3 className="post-title h4 xl:h1 m-0 max-w-700px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                               {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                             </SiteLink>
                           </h3>
@@ -352,7 +352,7 @@ export default function Page() {
                             </SiteLink>
                           </div>
                           <h3 className="post-title h4 xl:h1 m-0 max-w-700px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                               {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                             </SiteLink>
                           </h3>
@@ -458,7 +458,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 lg:h5 m-0 m-0 max-w-600px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                               {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                             </SiteLink>
                           </h3>
@@ -468,7 +468,7 @@ export default function Page() {
                             </span>
                           </div>
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                       </article>
                     </div>
                     <div>
@@ -477,7 +477,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                                   {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                                 </SiteLink>
                               </h3>
@@ -493,7 +493,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -505,7 +505,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                                   {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                                 </SiteLink>
                               </h3>
@@ -521,7 +521,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -533,7 +533,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                                   {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                                 </SiteLink>
                               </h3>
@@ -549,7 +549,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -609,7 +609,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 lg:h5 m-0 m-0 max-w-600px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                               {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                             </SiteLink>
                           </h3>
@@ -619,7 +619,7 @@ export default function Page() {
                             </span>
                           </div>
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                       </article>
                     </div>
                     <div>
@@ -628,7 +628,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                                   {"Business Agility the Digital Age: Leveraging AI and Automation"}
                                 </SiteLink>
                               </h3>
@@ -651,7 +651,7 @@ export default function Page() {
                               <span className="cstack has-video-icon position-absolute top-50 start-50 translate-middle fs-6 w-40px h-40px text-white">
                                 <i className="icon-narrow unicon-play-filled-alt"></i>
                               </span>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -663,7 +663,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                                   {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                                 </SiteLink>
                               </h3>
@@ -679,7 +679,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -691,7 +691,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                                   {"AI and Marketing: Unlocking Customer Insights"}
                                 </SiteLink>
                               </h3>
@@ -707,7 +707,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -767,7 +767,7 @@ export default function Page() {
                             </div>
                           </div>
                           <h3 className="post-title h6 lg:h5 m-0 m-0 max-w-600px text-white text-truncate-2">
-                            <SiteLink className="text-none text-white" href="/blog-details">
+                            <SiteLink className="text-none text-white" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                               {"Hidden Gems: Underrated Travel Destinations Around the World"}
                             </SiteLink>
                           </h3>
@@ -777,7 +777,7 @@ export default function Page() {
                             </span>
                           </div>
                         </div>
-                        <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                        <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                       </article>
                     </div>
                     <div>
@@ -786,7 +786,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                   {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                                 </SiteLink>
                               </h3>
@@ -802,7 +802,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -814,7 +814,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                   {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                                 </SiteLink>
                               </h3>
@@ -830,7 +830,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -842,7 +842,7 @@ export default function Page() {
                           <div>
                             <div className="post-header panel vstack justify-between gap-1">
                               <h3 className="post-title h6 m-0 text-truncate-2">
-                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                                   {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                                 </SiteLink>
                               </h3>
@@ -858,7 +858,7 @@ export default function Page() {
                               <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-1x1">
                                 <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                               </div>
-                              <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                              <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                             </div>
                           </div>
                         </div>
@@ -937,7 +937,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-01.jpg" alt="The Rise of AI-Powered Personal Assistants: How They Manage" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"World"}
@@ -946,7 +946,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage">
                                 {"The Rise of AI-Powered Personal Assistants: How They Manage"}
                               </SiteLink>
                             </h3>
@@ -954,7 +954,7 @@ export default function Page() {
                               {"Law enforcement officers have been accused of sexually abusing children over the past two decades, a Post investigation found. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/the-rise-of-ai-powered-personal-assistants-how-they-manage" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -969,7 +969,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-02.jpg" alt="Tech Innovations Reshaping the Retail Landscape: AI Payments" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"World"}
@@ -978,7 +978,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments">
                                 {"Tech Innovations Reshaping the Retail Landscape: AI Payments"}
                               </SiteLink>
                             </h3>
@@ -986,7 +986,7 @@ export default function Page() {
                               {"Officers have been accused of sexually abusing children over the past two decades, a Post investigation found. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/tech-innovations-reshaping-the-retail-landscape-ai-payments" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1001,7 +1001,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-03.jpg" alt="Balancing Work and Wellness: Tech Solutions for Healthy" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Guide"}
@@ -1010,7 +1010,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy">
                                 {"Balancing Work and Wellness: Tech Solutions for Healthy"}
                               </SiteLink>
                             </h3>
@@ -1018,7 +1018,7 @@ export default function Page() {
                               {"Children over the past two decades, a Post investigation found. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/balancing-work-and-wellness-tech-solutions-for-healthy" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1033,7 +1033,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-04.jpg" alt="The Importance of Sleep: Tips for Better Rest and Recovery" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Destinations"}
@@ -1042,7 +1042,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery">
                                 {"The Importance of Sleep: Tips for Better Rest and Recovery"}
                               </SiteLink>
                             </h3>
@@ -1050,7 +1050,7 @@ export default function Page() {
                               {"Post investigation found. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/the-importance-of-sleep-tips-for-better-rest-and-recovery" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1065,7 +1065,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Destinations"}
@@ -1074,7 +1074,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                 {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                               </SiteLink>
                             </h3>
@@ -1082,7 +1082,7 @@ export default function Page() {
                               {"Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1104,7 +1104,7 @@ export default function Page() {
                             <span className="cstack has-video-icon position-absolute top-0 end-0 fs-6 w-40px h-40px text-white">
                               <i className="icon-narrow unicon-play-filled-alt"></i>
                             </span>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Guide"}
@@ -1113,7 +1113,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                                 {"Business Agility the Digital Age: Leveraging AI and Automation"}
                               </SiteLink>
                             </h3>
@@ -1121,7 +1121,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1136,7 +1136,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"World"}
@@ -1145,7 +1145,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                                 {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                               </SiteLink>
                             </h3>
@@ -1153,7 +1153,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1168,7 +1168,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Travel"}
@@ -1177,7 +1177,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-and-marketing-unlocking-customer-insights">
                                 {"AI and Marketing: Unlocking Customer Insights"}
                               </SiteLink>
                             </h3>
@@ -1185,7 +1185,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1200,7 +1200,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"World"}
@@ -1209,7 +1209,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                                 {"Hidden Gems: Underrated Travel Destinations Around the World"}
                               </SiteLink>
                             </h3>
@@ -1217,7 +1217,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1232,7 +1232,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Destinations"}
@@ -1241,7 +1241,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                                 {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                               </SiteLink>
                             </h3>
@@ -1249,7 +1249,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1264,7 +1264,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"Travel"}
@@ -1273,7 +1273,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                                 {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                               </SiteLink>
                             </h3>
@@ -1281,7 +1281,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1296,7 +1296,7 @@ export default function Page() {
                             <div className="featured-image bg-gray-25 dark:bg-gray-800 ratio ratio-16x9 rounded-2 overflow-hidden">
                               <img className="media-cover image" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-12.jpg" alt="AI-Powered Financial Planning: How Algorithms Revolutionizing" data-uc-img="loading: lazy" />
                             </div>
-                            <SiteLink href="/blog-details" className="position-cover"></SiteLink>
+                            <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="position-cover"></SiteLink>
                             <div className="post-category hstack gap-narrow position-absolute top-100 start-50 translate-middle z-1">
                               <SiteLink className="btn btn-xs btn-primary" href="/blog-category">
                                 {"World"}
@@ -1305,7 +1305,7 @@ export default function Page() {
                           </div>
                           <div className="post-header panel vstack items-center gap-1 text-center max-w-2/3 mx-auto pt-2">
                             <h3 className="post-title h5 md:h4 lg:h3 m-0 text-truncate-2">
-                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                              <SiteLink className="text-none hover:text-primary duration-150" href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing">
                                 {"AI-Powered Financial Planning: How Algorithms Revolutionizing"}
                               </SiteLink>
                             </h3>
@@ -1313,7 +1313,7 @@ export default function Page() {
                               {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                             </p>
                             <div className="post-link">
-                              <SiteLink href="/blog-details" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
+                              <SiteLink href="/blog/ai-powered-financial-planning-how-algorithms-revolutionizing" className="link fs-7 fw-bold text-uppercase text-none mt-1 pb-narrow p-0 border-bottom dark:text-white">
                                 <span>
                                   {"Continue Reading"}
                                 </span>
@@ -1355,7 +1355,7 @@ export default function Page() {
                                 </span>
                                 <div className="post-header panel vstack justify-between gap-1">
                                   <h3 className="post-title h6 m-0">
-                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog/virtual-reality-and-mental-health-exploring-the-therapeutic">
                                       {"Virtual Reality and Mental Health: Exploring the Therapeutic"}
                                     </SiteLink>
                                   </h3>
@@ -1399,7 +1399,7 @@ export default function Page() {
                                 </span>
                                 <div className="post-header panel vstack justify-between gap-1">
                                   <h3 className="post-title h6 m-0">
-                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                                       {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                                     </SiteLink>
                                   </h3>
@@ -1443,7 +1443,7 @@ export default function Page() {
                                 </span>
                                 <div className="post-header panel vstack justify-between gap-1">
                                   <h3 className="post-title h6 m-0">
-                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog/smart-homes-smarter-living-exploring-iot-and-ai">
                                       {"Smart Homes, Smarter Living: Exploring IoT and AI"}
                                     </SiteLink>
                                   </h3>
@@ -1487,7 +1487,7 @@ export default function Page() {
                                 </span>
                                 <div className="post-header panel vstack justify-between gap-1">
                                   <h3 className="post-title h6 m-0">
-                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog-details">
+                                    <SiteLink className="text-none hover:text-primary duration-150" href="/blog/how-businesses-are-adapting-to-e-commerce-and-ai-integration">
                                       {"How Businesses Are Adapting to E-Commerce and AI Integration"}
                                     </SiteLink>
                                   </h3>

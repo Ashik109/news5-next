@@ -231,17 +231,17 @@ export default function Header5() {
                       </SiteLink>
                     </li>
                     <li>
-                      <SiteLink href="/blog-details">
+                      <SiteLink href="/blog/the-rise-of-gourmet-street-food-trends-and-top-picks">
                         {"Blog single"}
                       </SiteLink>
                     </li>
                     <li>
-                      <SiteLink href="/blog-details-2">
+                      <SiteLink href="/blog-details-2/the-rise-of-gourmet-street-food-trends-and-top-picks">
                         {"Blog single v2"}
                       </SiteLink>
                     </li>
                     <li>
-                      <SiteLink href="/blog-details-3">
+                      <SiteLink href="/blog-details-3/the-rise-of-gourmet-street-food-trends-and-top-picks">
                         {"Blog single v3"}
                       </SiteLink>
                     </li>
@@ -271,12 +271,12 @@ export default function Header5() {
                       </SiteLink>
                     </li>
                     <li>
-                      <SiteLink href="/shop-product-detail">
+                      <SiteLink href="/shop/disney-toys">
                         {"Product detail"}
                       </SiteLink>
                     </li>
                     <li>
-                      <SiteLink href="/shop-product-detail-2">
+                      <SiteLink href="/shop-product-detail-2/disney-toys">
                         {"Product detail v2"}
                       </SiteLink>
                     </li>

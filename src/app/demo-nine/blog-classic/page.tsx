@@ -71,14 +71,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-05.jpg" alt="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"></SiteLink>
+                        <SiteLink href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles" className="position-cover" data-caption="The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                           {"The Future of Sustainable Living: Driving Eco-Friendly Lifestyles"}
                         </SiteLink>
                       </h3>
@@ -125,7 +125,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/the-future-of-sustainable-living-driving-eco-friendly-lifestyles">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -140,14 +140,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-06.jpg" alt="Business Agility the Digital Age: Leveraging AI and Automation" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="Business Agility the Digital Age: Leveraging AI and Automation"></SiteLink>
+                        <SiteLink href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation" className="position-cover" data-caption="Business Agility the Digital Age: Leveraging AI and Automation"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                           {"Business Agility the Digital Age: Leveraging AI and Automation"}
                         </SiteLink>
                       </h3>
@@ -194,7 +194,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/business-agility-the-digital-age-leveraging-ai-and-automation">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -209,14 +209,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-07.jpg" alt="The Art of Baking: From Classic Bread to Artisan Pastries" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="The Art of Baking: From Classic Bread to Artisan Pastries"></SiteLink>
+                        <SiteLink href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries" className="position-cover" data-caption="The Art of Baking: From Classic Bread to Artisan Pastries"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                           {"The Art of Baking: From Classic Bread to Artisan Pastries"}
                         </SiteLink>
                       </h3>
@@ -263,7 +263,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/the-art-of-baking-from-classic-bread-to-artisan-pastries">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -278,14 +278,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-08.jpg" alt="AI and Marketing: Unlocking Customer Insights" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="AI and Marketing: Unlocking Customer Insights"></SiteLink>
+                        <SiteLink href="/blog/ai-and-marketing-unlocking-customer-insights" className="position-cover" data-caption="AI and Marketing: Unlocking Customer Insights"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/ai-and-marketing-unlocking-customer-insights">
                           {"AI and Marketing: Unlocking Customer Insights"}
                         </SiteLink>
                       </h3>
@@ -332,7 +332,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/ai-and-marketing-unlocking-customer-insights">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -347,14 +347,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-09.jpg" alt="Hidden Gems: Underrated Travel Destinations Around the World" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="Hidden Gems: Underrated Travel Destinations Around the World"></SiteLink>
+                        <SiteLink href="/blog/hidden-gems-underrated-travel-destinations-around-the-world" className="position-cover" data-caption="Hidden Gems: Underrated Travel Destinations Around the World"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                           {"Hidden Gems: Underrated Travel Destinations Around the World"}
                         </SiteLink>
                       </h3>
@@ -401,7 +401,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/hidden-gems-underrated-travel-destinations-around-the-world">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -416,14 +416,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-10.jpg" alt="Eco-Tourism: Traveling Responsibly and Sustainably" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="Eco-Tourism: Traveling Responsibly and Sustainably"></SiteLink>
+                        <SiteLink href="/blog/eco-tourism-traveling-responsibly-and-sustainably" className="position-cover" data-caption="Eco-Tourism: Traveling Responsibly and Sustainably"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                           {"Eco-Tourism: Traveling Responsibly and Sustainably"}
                         </SiteLink>
                       </h3>
@@ -470,7 +470,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/eco-tourism-traveling-responsibly-and-sustainably">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
@@ -485,14 +485,14 @@ export default function Page() {
                     <div className="panel">
                       <figure className="featured-image m-0 ratio ratio-1x1 rounded uc-transition-toggle overflow-hidden bg-gray-25 dark:bg-gray-800">
                         <img className="media-cover image uc-transition-scale-up uc-transition-opaque" src="/assets/images/common/img-fallback.png" data-src="/assets/images/demo-nine/posts/img-11.jpg" alt="Solo Travel: Some Tips and Destinations for the Adventurous Explorer" data-uc-img="loading: lazy" />
-                        <SiteLink href="/blog-details" className="position-cover" data-caption="Solo Travel: Some Tips and Destinations for the Adventurous Explorer"></SiteLink>
+                        <SiteLink href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer" className="position-cover" data-caption="Solo Travel: Some Tips and Destinations for the Adventurous Explorer"></SiteLink>
                       </figure>
                     </div>
                   </div>
                   <div>
                     <div className="vstack items-start gap-2 md:gap-3">
                       <h3 className="h4 sm:h5 md:h4 lg:h3 m-0 m-0">
-                        <SiteLink className="text-none" href="/blog-details">
+                        <SiteLink className="text-none" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                           {"Solo Travel: Some Tips and Destinations for the Adventurous Explorer"}
                         </SiteLink>
                       </h3>
@@ -539,7 +539,7 @@ export default function Page() {
                       <p className="fs-6 md:fs-5 d-none md:d-block">
                         {"To spread the word, the company embarked on a mass marketing drive. TV campaigns launched in the platform’s key markets. Nisi dignissim tortor sed quam sed ipsum ut. Dolor sit amet, consectetur adipiscing elit."}
                       </p>
-                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog-details">
+                      <SiteLink className="btn btn-text text-primary border-bottom d-inline-flex fs-7 md:fs-6 my-1 md:my-2 d-none md:d-block" href="/blog/solo-travel-some-tips-and-destinations-for-the-adventurous-explorer">
                         {"Continue reading"}
                       </SiteLink>
                     </div>
