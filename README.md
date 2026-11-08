@@ -33,7 +33,7 @@ On Windows PowerShell with restricted script execution, use `npm.cmd` instead of
 - `public/assets/`: original images, fonts, stylesheets and vendor scripts.
 - `src/styles/scss/`: original editable SCSS sources; compiled CSS is already included in assets.
 
-Application pages use React/TSX without runtime HTML injection. A standalone developer guide is included at [documentation/index.html](documentation/index.html); open it directly in your browser. The application does not require the original template directory to run or build. Google Fonts are loaded by the original stylesheets and need an internet connection.
+Application pages use React/TSX without runtime HTML injection. The developer guide is available at `/documentation` (also `/documentation/index.html`) on the deployed site, and [documentation/index.html](documentation/index.html) can also be opened directly in a browser. Static route handlers serve the guide and its logo. The application does not require the original template directory to run or build. Google Fonts are loaded by the original stylesheets and need an internet connection.
 
 Cache Components is disabled so inactive demo pages unmount: their global theme styles and vendor widget IDs must not coexist in hidden cached page trees. React Compiler and normal Next.js routing/static prerendering remain enabled.
 
