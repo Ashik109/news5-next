@@ -10,6 +10,7 @@
     "typecheck": "tsc --noEmit",
     "verify": "node scripts/verify-conversion.mjs",
     "test:e2e": "playwright test",
+    "test:navigation": "playwright test tests/navigation.spec.ts",
     "test:sliders": "node scripts/compare-sliders.mjs",
     "audit:site": "node scripts/audit-site.mjs",
     "convert:template": "node scripts/convert-template.mjs"
